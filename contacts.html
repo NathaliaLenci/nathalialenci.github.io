@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathalia Lenci | Contatti</title>
+    <meta property="og:title" content="Nathalia Lenci | Contatti">
+    <link rel="stylesheet" href="css/contacts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!--<script src="./js/script.js"></script>-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+    <a style="text-decoration:none" href="index.html"> 
+        <div class="signature">Nathalia Lenci</div>
+    </a>
+    <nav class="nav desktop-nav">
+        <a href="index.html">Chi Sono</a>
+        <a href="cv.html">Curriculum Vitae</a>
+        <a href="index.html#projects">Progetti</a>
+        <a href="contacts.html">Contatti</a>
+    </nav>
+    <!-- Pulsante menu mobile -->
+    <div class="mobile-menu-icon" onclick="toggleMobileMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+    <!-- Menu mobile -->
+    <nav id="mobile-menu" class="mobile-nav">
+        <a href="#intro" onclick="closeMobileMenu()">Chi Sono</a>
+        <a href="cv.html" onclick="closeMobileMenu()">Curriculum Vitae</a>
+        <a href="#projects" onclick="closeMobileMenu()">Progetti</a>
+        <a href="contacts.html" onclick="closeMobileMenu()">Contatti</a>
+    </nav>
+</header>
+
+
+<div class="orizontal-line-white"></div>
+
+<section id="contact" class="space">
+    <h2 class="h2 contactSize">Compila il form con i tuoi dati per contattarmi.</h2>
+    <div class="containerForm">
+        <div class="containerGroup">
+            <div class="column-left altezzaIMG">
+                <img src="img/imgcontacts.jpg" class="contact-img">
+            </div>
+
+            <div class="column-right">
+                <form name="modulo">
+                    <div class="form-group">
+                        <label for="nome" class="h4">Nome <span>*</span></label>
+                        <input type="text" placeholder="Nome" id="nome" name="nome" required>
+                        <div id="feedback"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cognome" class="h4">Cognome <span>*</span></label>
+                        <input type="text" placeholder="Cognome" id="cognome" name="cognome" required>
+                        <div id="feedback1"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="h4">Email <span>*</span></label>
+                        <input type="email" placeholder="Email" id="email" name="email" required>
+                        <div id="feedback2"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="messaggio" class="h4">Messaggio</label>
+                        <textarea id="messaggio" placeholder="Scrivi qui il tuo messaggio..." name="messaggio"></textarea>
+                    </div>
+                    <button onclick="sendEmail()">Invia</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="orizontal-line-white"></div>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>&copy; 2024 Nathlia Lenci. Tutti i diritti riservati.</p>
+    <div class="social-links">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/nathalialenci/">LinkedIn</a>
+            <a href="https://www.instagram.com/nathalialenci/">Instagram</a>
+            <a href="https://x.com/_Nathxlia_">X</a>
+            <a href="https://github.com/NathaliaLenci">GitHub</a>
+            <a href="https://bsky.app/profile/nathbunny.bsky.social">Bluesky</a>
+            <a href="https://www.behance.net/nathalialenci">Behance</a>
+            <a href="https://it.pinterest.com/nathalialenci/">Pinterest</a>
+            <a href="https://vgen.co/NathBunny/characters">VGen</a>
+          </div>
+    </div>
+</footer>
+
+<script src="./assets/js/script.js"></script>
+</body>
+</html>

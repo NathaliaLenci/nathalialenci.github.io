@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathalia Lenci</title>
+    <meta property="og:title" content="Nathalia Lenci | UX/UI Designer">
+    <meta property="og:description" content="Sul mio sito web troverai una raccolta dei miei progetti più recenti, informazioni dettagliate su di me, la mia esperienza e le mie competenze, nonché i modi per contattarmi per collaborazioni e opportunità professionali.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+    <a style="text-decoration:none" href="index.html"> 
+        <div class="signature">Nathalia Lenci</div>
+    </a>
+    <nav class="nav desktop-nav">
+        <a href="#intro">Chi Sono</a>
+        <a href="cv.html">Curriculum Vitae</a>
+        <a href="#projects">Progetti</a>
+        <a href="contacts.html">Contatti</a>
+    </nav>
+    <!-- Pulsante menu mobile -->
+    <div class="mobile-menu-icon" onclick="toggleMobileMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+    <!-- Menu mobile -->
+    <nav id="mobile-menu" class="mobile-nav">
+        <a href="#intro" onclick="closeMobileMenu()">Chi Sono</a>
+        <a href="cv.html" onclick="closeMobileMenu()">Curriculum Vitae</a>
+        <a href="#projects" onclick="closeMobileMenu()">Progetti</a>
+        <a href="contacts.html" onclick="closeMobileMenu()">Contatti</a>
+    </nav>
+</header>
+
+<!-- Introduzione -->
+<section class="intro">
+    <h1>Ciao, <br> mi chiamo Nathalia.</h1>
+    <h2>Sono una UX/UI Designer, Graphic Designer e Illustratrice.</h2>
+    <p>L’arte è sempre stata la mia più grande passione, un interesse che mi ha guidato <br>verso lo studio dell’illustrazione e del fumetto. <br>Questo percorso mi ha permesso di specializzarmi in graphic design, <br>professione che svolgo con dedizione dal 2020. </p>
+    
+</section>
+
+ <!-- Competenze -->
+ <section id="skills" class="skills">
+    <h2>Competenze</h2>
+    <div class="skills-icons">
+        <div>Photoshop</div>
+        <div>Illustrator</div>
+        <div>Figma</div>
+        <div>Miro</div>
+        <div>HTML</div>
+        <div>CSS</div>
+    </div>
+</section>
+
+<!-- Progetti -->
+<section id="projects" class="projects">
+    <h2>Progetti</h2>
+    <div class="projects-grid">
+    <!-- Progetto 1 -->
+    <a href="https://www.behance.net/gallery/174403281/Daily-Fix-Bakery-App-UXUI-DESIGN-PROJECT" class="project" target="_blank" rel="noopener noreferrer">
+        <img src="img/Progetto1.png" alt="Daily fix Bakery UX/UI study">
+        <h3>Daily fix Bakery UX/UI study</h3>
+        <p>Design del menù e dell'applicazione mobile di take-away per una pasticceria locale</p>
+    </a>
+    
+    <!-- Progetto 2 -->
+    <a href="https://www.behance.net/gallery/194194485/Sketches-and-Illustrations" class="project" target="_blank" rel="noopener noreferrer">
+        <img src="img/Progetto2.png" alt="Sketches and illustrations">
+        <h3>Sketches and Illustrations</h3>
+        <p>Raccolta di sketch ed illustrazioni</p>
+    </a>
+    
+    <!-- Progetto 3 -->
+    <a href="https://www.behance.net/gallery/176398883/Twitch-graphics" class="project" target="_blank" rel="noopener noreferrer">
+        <img src="img/Progetto3.png" alt="Graphic design">
+        <h3>Graphic design</h3>
+        <p>Grafica overlays per Twitch streamers</p>
+    </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>&copy; 2024 Nathlia Lenci. Tutti i diritti riservati.</p>
+    <div class="social-links">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/nathalialenci/">LinkedIn</a>
+            <a href="https://www.instagram.com/nathalialenci/">Instagram</a>
+            <a href="https://x.com/_Nathxlia_">X</a>
+            <a href="https://github.com/NathaliaLenci">GitHub</a>
+            <a href="https://bsky.app/profile/nathbunny.bsky.social">Bluesky</a>
+            <a href="https://www.behance.net/nathalialenci">Behance</a>
+            <a href="https://it.pinterest.com/nathalialenci/">Pinterest</a>
+            <a href="https://vgen.co/NathBunny/characters">VGen</a>
+          </div>
+    </div>
+</footer>
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
