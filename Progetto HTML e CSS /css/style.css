@@ -1,0 +1,371 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Menu desktop */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav.desktop-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav.desktop-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Icona menu mobile */
+.mobile-menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Menu mobile */
+.mobile-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.mobile-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.mobile-nav.active {
+    transform: translateX(0);
+}
+
+/* Mobile-first design */
+@media (max-width: 768px) {
+    .nav.desktop-nav {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        color: #333;
+    }
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding-right: 90px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.signature {
+    font-family: 'Pacifico', cursive;
+    font-size: 24px; 
+    color: #333; 
+    margin-left: 90px;
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Intro */
+.intro {
+    text-align: left;
+    padding: 180px 120px;
+    background-image: url(../img/sfondo.png);
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.skills h2 {
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-size: 24px; 
+    color: #333; 
+  }
+
+  .skills-icons {
+    text-align: center;
+}
+  
+.skills-icons div {
+    align-items: center;
+    display: inline-block; 
+    justify-content: center; 
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.projects h2 {
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-size: 24px; 
+    color: #333; 
+  } 
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px;
+}
+
+.project {
+    text-decoration: none; 
+    color: inherit; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.project img {
+    width: 100%; 
+    display: block;
+}
+
+.project h3 {
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.project p {
+    margin: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+
+.project h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Chi Sono */
+.about {
+    padding: 40px 20px;
+    background: #f9f9f9;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #C5D1E7;
+    margin-top: 50px; 
+    
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    margin-bottom: 50px; 
+}
+
+/* ------------------------------ PAGINA CONTATTI ------------------------------ */
+
+#contact {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente il contenuto */
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-img {
+    border-radius: 15px;
+    border: solid 1px #fff;
+}
+
+.img-container {
+    margin: 0 0 24px 0;
+}
+
+.info-container {
+    border-radius: 15px;
+    border: solid 1px #fff;
+    padding: 24px;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.contact-info {
+    margin-bottom: 4px;
+}
+
+/* ------------------------------ Form ------------------------------ */
+
+.container{
+    display: flex;
+    width: 80%;
+}
+
+.containerForm{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.containerGroup{
+    display: flex;
+    gap: 3rem;
+    width: 80%;
+    justify-content: center;
+}
+
+.containerGroup .column-left {
+    padding: 0;
+    flex: 0;
+    height: 32.5rem;
+}
+
+.containerGroup .column-right {
+    padding: 0;
+    flex: 0;
+}
+
+.altezzaIMG img{
+    height: 100%;
+    width: auto;
+}
+
+form {
+    border-radius: 15px;
+    border: solid 1px #fff;
+    padding: 24px;
+    background-color: #121212;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+label {
+    display: block;
+    margin: 0 0 4px 4px;
+}
+
+input, textarea {
+    width: 34vw;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px; 
+    font-style: normal; 
+    color: #121212;
+}
+
+textarea:hover {
+    border: 2px solid #E84B27;
+}
+
+input:hover {
+    border: 2px solid #E84B27;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+#feedback, #feedback1, #feedback2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: red;
+    padding: 8px 0 0 8px;
+}
+
+::placeholder {
+    font-family: "Inter", sans-serif;
+    font-size: 14px; 
+    font-style: normal; 
+    color: #121212;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 84px;
+}
+
+.form-group span{
+    color: red;
+}
