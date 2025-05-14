@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="immagini/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header class="hero">
+    <div class="top-left">
+      <a href="index.html">
+  <img src="immagini/littleme.png" alt="Logo" class="logo" />
+</a>
+
+      <input type="checkbox" id="toggle" class="toggle-menu" hidden />
+      <label for="toggle" class="menu-button">☰ Menu</label>
+      <ul class="menu-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="uxui.html">UX/UI Design</a></li>
+        <li><a href="comics.html">Comics & Illustrations</a></li>
+        <li><a href="graphicdesign.html">Graphic Design</a></li>
+        <li><a href="cv.html">Curriculum Vitae</a></li>
+        <li>
+          <a href="#contact">
+            <img src="immagini/emailmepng.png" alt="Contatti" class="contact-icon" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="title-container">
+      <img src="immagini/title.gif" alt="Titolo" class="title-img" />
+    </div>
+  </header>
+
+  <main class="gallery">
+    <div class="gallery-item">
+      <a href="uxui.html">
+        <img src="immagini/UXUIDESIGNPNG.png" alt="UX/UI Design" />
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="comics.html">
+        <img src="immagini/COMICSANDILLUSTPNG.png" alt="Comics & Illustrations" />
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="graphicdesign.html">
+        <img src="immagini/GRAPHICDESIGNPNG.png" alt="Graphic Design" />
+      </a>
+    </div>
+  </main>
+
+  <section class="home-contact" id="contact">
+  <div class="contact-left">
+    <h2>Contact</h2>
+    <ul class="social-links">
+      <li><a href="https://instagram.com/nathalialenci" target="_blank"> <img src="immagini/iconig.png" alt="Instagram" class="social-icon"></a></li>
+      <li><a href="https://linkedin.com/in/nathalialenci" target="_blank"> <img src="immagini/iconld.png" alt="Instagram" class="social-icon"></a></li>
+    </ul>
+  </div>
+
+  <div class="contact-right">
+    <form id="contact-form" action="https://formspree.io/f/xzzekgow" method="POST">
+      <input type="email" name="email" placeholder="La tua email" required />
+      <textarea name="message" rows="5" placeholder="Il tuo messaggio" required></textarea>
+      <button type="submit">Invia</button>
+      <div id="form-message" class="form-message"></div>
+    </form>
+  </div>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 Nathalia Lenci · All rights reserved</p>
+  </footer>
+</body>
+</html>
+
+
