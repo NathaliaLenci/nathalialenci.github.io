@@ -540,6 +540,13 @@ footer {
 
   .gallery {
     margin-left: 225px;
-    margin-right: 225px;
+  }
+
+  .project-gallery {
+    margin-left: 225px;
+  }
+
+  .cv-section {
+    margin-left: 225px;
   }
 }
