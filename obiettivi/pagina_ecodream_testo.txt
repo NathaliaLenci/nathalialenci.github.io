@@ -1,0 +1,2937 @@
+ecodream
+sustainable, ethical, and handmade fashion
+UX/UI CASE STUDY
+
+
+
+Nathalia Lenci - UX/UI Designer
+INDICE
+INTRODUZIONE 02
+DISCOVERY & RESEARCH
+Analisi as is
+
+Architettura dell’informazione
+
+Competitor
+
+Ricerca utente
+
+Personas
+
+User journey
+03-38
+ACCESSIBILITÀ 39-40
+WIREFRAME
+Griglia Layout
+
+Scala Tipografica
+
+Wireframe desktop e mobile
+
+Wireflow utente
+41-58
+USER INTERFACE 59-74
+UI kit
+
+Interazione
+
+User flow
+USER TEST 75-96
+Metodologia e Obiettivi
+
+Target
+
+Recruiting
+
+Script
+
+Task e Svolgimento
+
+Prototipo
+
+Test
+
+Risultati del test
+
+Conclusioni 
+
+Il Progetto Ecodream
+
+Ecodream è un brand di moda sostenibile che produce borse e accessori con materiali ecologici e un processo produttivo etico. 
+
+L'obiettivo di questo progetto di UX/UI design è migliorare l'esperienza d'acquisto online, rendendo il sito più intuitivo, accessibile e coerente con i
+valori del brand.
+
+
+
+Obiettivi del Progetto
+
+Creare un'interfaccia chiara e accattivante, ottimizzata per desktop e mobile.
+
+Migliorare la navigazione e la ricerca dei prodotti per facilitare l'acquisto.
+
+Implementare soluzioni di design che riflettano l’identità sostenibile del brand.
+
+Testare l'usabilità con utenti reali per individuare e risolvere eventuali criticità.
+
+
+
+Il Processo di Lavoro
+
+Il progetto è stato sviluppato seguendo un processo iterativo basato su:
+
+Discovery & Research – Analisi del target, benchmark e identificazione dei problemi.
+
+Accessibilità
+
+Wireframing & User Flow – Definizione dell’architettura delle informazioni e primi prototipi.
+
+UI Design – Creazione dello stile visivo, della palette colori e della tipografia.
+
+User Testing & Ottimizzazione – Test di usabilità per validare il design e migliorarlo sulla base del feedback ricevuto.
+
+
+Questa presentazione raccoglie tutte le fasi di lavoro e mostra l’evoluzione del progetto, dalla ricerca alla realizzazione finale.
+ECODREAM - INTRODUZIONE
+02
+DISCOVERY & RESEARCH
+Analisi as is, ricerca utente, personas e user journey
+03
+Visibilità dello stato del sistema
+
+
+Desktop:
+
+
+Pro
+
++ Le categorie principali si trovano nella header.
+
++ Cliccando sul logo il sito ti reindirizza alla pagina home.
+
+
+Contro
+
+- Icone poco presenti e/o inesistenti.
+
+- I titoli e i sottotitoli non sono presenti in ogni pagina e non hanno
+una struttura chiara e ben definita.
+
+- Lo shop non è chiaro e non presenta filtri che aiutino l’utente a
+individuare i prodotti desiderati.
+
+- Non c‘è un pulsante che ti faccia tornare indietro alle pagine
+precedenti.
+
+- Non è presente nessun elemento che comunichi all’utente il
+caricamento di un processo.
+
+- Non sono presenti breadcrumb che indichino all’utente dove si trovi
+mentre naviga nel sito.
+
+- Il footer non è ottimizzato, sono presenti solo alcune info
+riguardanti la posizione, la P.IVA la mail e due collegamenti social.
+Smartphone:
+
+
+Pro
+
++ Il sito si visualizza e si adatta bene su mobile.
+
++ Il logo riporta alla pagina principale. 
+
++ E’ presente un menù ad hamburger.
+
+
+Contro
+
+- Icone poco presenti e/o inesistenti anche su mobile
+
+- I link non sono per visibili e si rischia di cliccarci sopra
+involontariamente interrompendo così la navigazione.
+
+- Non è presente un pulsante per tornare alla pagina precedente.
+
+- Footer non ottimizzato
+
+- Shop poco chiaro
+ANALISI “AS IS”
+04
+Sistema e mondo reale
+
+
+Desktop - Smartphone:
+
+
+Pro
+
++ In generale linguaggio usato è user friendly.
+
++ Presente il tasto di traduzione automatica.
+
++ Si può accedere alle categorie principali tramite un hamburger a
+menù. (smartphone)
+
+
+Contro
+
+- I testi sono lunghi e poco organizzati, aumentando la possibilità di
+abbandono per l’utente.
+
+- Alcune parole citate nelle varie categorie sono comprensibili solo
+per un certo tipo di target.
+
+- I link non sono visibili.
+
+- Non tutte le categorie sono etichettate in modo corretto.
+Controllo e libertà utente
+
+
+Desktop - Smartphone:
+
+
+Pro
+
++ Il sito presenta un responsive design.
+
++ Si possono eliminare prodotti dal carrello.
+
++ Dal carrello c’è il pulsante ‘tornare agli acquisti’.
+
++ C’è la possiblità di scegliere la modalità di pagamento
+
++ E’ possibile effettuare l’acquisto senza accedere al sito.
+
++ Dopo l’inserimento del codice sconto è possibile aggiornare il prezzo
+prima di concludere l’acquisto.
+
+
+Contro
+
+- L’utente non può modificare la quantità di un articolo dal carrello.
+
+- Non è presente una live chat.
+
+- Non è possibile registrarsi tramite i social.
+
+- Non è presente un pulsante ‘Indietro’ o ‘Annulla’.
+
+- Non è presente una barra di ricerca che permetta agli utenti di cercare
+un particolare prodotto in modo autonomo e veloce.
+
+- Non è possibile filtrare i risultati per modello, colore o categoria.
+ANALISI “AS IS”
+05
+Coerenza e standard
+
+
+Desktop - Smartphone:
+
+
+Pro
+
++ Le pagine web tra di loro sono coerenti.
+
++ Forme e stili sono coerenti in quasi tutte le pagine.
+
++ I colori usati sono coerenti con il brand e la sua filosofia.
+
++ Cliccando il logo si torna alla ‘home’.
+
+
+Contro
+
+- La suddivisione dei prodotti nello shop non è ordinata.
+
+- L’icona dello ‘shop’ ha uno stile grafico non coerente con il resto del
+sito.
+
+- Non è coerente l’uso dell’Italic e del Bold nei vari testi.
+Prevenzione degli errori
+
+
+Desktop - Smartphone:
+
+
+Pro
+
++ Si possono eliminare prodotti dal carrello.
+
++ Dal carrello c’è il pulsante “tornare agli acquisti”.
+
++ Quando provi ad aggiungere due volte un prodotto il sito te lo fa notare
+con una notifica.
+
+
+Contro
+
+- L’utente non può modificare la quantità di un articolo dal carrello.
+
+- Non è presente un pulsante ‘Indietro’ o ‘Annulla’.
+
+- Non è presente una barra di ricerca che permetta agli utenti di cercare
+un particolare prodotto in modo autonomo e veloce.
+
+- I link non sono per visibili e si rischia di cliccarci sopra involontariamente
+interrompendo così la navigazione.
+ANALISI “AS IS”
+06
+Riconoscimento piuttosto che richiamo
+
+
+Desktop - Smartphone:
+
+
+Pro
+
++ Il layout del sito è semplice e intuibile.
+
+
+Contro
+
+- Non è presente una barra di ricerca che permetta agli utenti di
+cercare un particolare prodotto in modo autonomo e veloce.
+
+- Le info e i componenti nell’interfaccia provocano spesso
+confusione.
+
+- Non sempre è chiaro capire in quale pagina/sezione ci si trova.
+Flessibilità ed efficienza
+
+
+Desktop - Smartphone:
+
+
+Pro
+
++ Dal carrello c’è il pulsante “tornare agli acquisti”.
+
++ È possibile approfondire diversi contenuti, come le iniziative in cui si
+impegna ecodream o i partner con cui collabora.
+
+
+Contro
+
+- Non è presente una ‘wishlist’ o ‘sezione preferiti’.
+
+- Testi lunghi.
+
+- Molte pagine possono essere raggiunte solo tramite la navigazione di
+più pagine.
+
+- Il footer non è ottimizzato nè per la versione mobile nè per quella
+desktop.
+
+- Il menù non ha icone che possano aiutare l’utente a ricordarsi dove si
+trova all’interno del sito.
+ANALISI “AS IS”
+07
+Design estetico e minimalista
+
+
+Desktop - Smartphone:
+
+
+Pro
+
++ I colori e le foto usate sono coerenti con il brand e la sua filosofia.
+
++ Non ci sono elementi di distrazione, il layout è chiaro e pulito.
+
++ Le foto sulla home fanno percepire chiaramente cosa andremo a
+trovare sul sito e di cosa si occupa il brand.
+
+
+Contro
+
+- Al contrario del layout, il design è confusionale, utenti con poca
+esperienza nella navigazione potrebbero non riuscire ad esplorare il
+sito come dovrebbero.
+
+- Il logo a primo impatto risulta di una qualità inferiore rispetto alle
+foto sottostanti.
+
+- Il logo occupa troppo spazio.
+
+- I loghi sottostanti sono troppo grandi e confusionari, inoltre non c’è
+una descrizione della categoria a cui appartengono.
+Aiutare gli utenti con gli errori
+
+
+Desktop - Smartphone:
+
+
+Pro
+
++ Si possono eliminare prodotti dal carrello.
+
++ Si può recuperare il prodotto eliminato dal carrello.
+
++ Quando provi ad aggiungere due volte un prodotto il sito te lo fa notare
+con una notifica.
+
+
+Contro
+
+- Nella sezione contatto, se viene inserita una mail inesistente il sistema la
+accetta comunque.
+
+- Gli errori durante il login non vengono notificati e gestiti chiaramente.
+ANALISI “AS IS”
+08
+Aiuto e documentazione
+
+
+Desktop - Smartphone:
+
+
+Pro
+
++ L’utente può contattare il brand tramite una mail o tramite un
+modulo.
+
++ Nella sezione ‘contatti’ è presente un numero whatsapp.
+
++ Il regolamento per resi e spedizioni è chiaro.
+
+
+Contro
+
+- Oltre al numero whatsapp non sono forniti ulteriori recapiti
+telefonici.
+
+- Non sono presenti recensioni dei prodotti per un riscontro dei
+consumatori.
+
+- Non sono presenti FAQ.
+
+- Non sono presenti Condizioni d’uso, Privacy e Cookie Policy.
+Designed by Freepik
+ANALISI “AS IS”
+09
+Nel complesso il sito è USABILE
+
+
+Apprendibilità: Il sito ha una navigabilità semplice, con un layout intuitivo e un linguaggio comprensibile. Tuttavia, la navigazione diventa complessa
+quando si accede alle sezioni specifiche del menù, dove i testi, le scorciatoie e i link non risultano chiari o immediatamente riconoscibili.
+
+
+Efficienza: Il sito presenta diverse criticità. L'azione principale di visualizzazione dei prodotti e lo shopping risultano poco immediati, a causa di filtri
+non ottimali e di una struttura macchinosa che rende difficile trovare lo shop. Durante un acquisto emergono diverse problematiche che rendono
+l'esperienza meno gradevole e scorrevole.
+
+
+Memorabilità: il sito risulta abbastanza facile da ricordare dopo un periodo di inattività. Tuttavia, la gestione dei dati di accesso potrebbe causare
+problemi: gli utenti potrebbero ritrovarsi con l'account bloccato se non ricordano la password o devono aggiornare i dati. L’accesso alla gestione dati o il
+completamento di task può risultare difficile per chi non utilizza il sito frequentemente.
+
+
+Errori: La gestione degli errori è un punto critico del sito. Sebbene l’utente venga notificato quando commette un errore e abbia la possibilità di
+risolverlo, non esiste un pulsante che permetta di tornare alla pagina precedente. Spesso, l’utente è costretto a utilizzare il pulsante "indietro" del
+browser, poiché non riesce a orientarsi all'interno del sito.
+
+
+Soddisfazione: Il sito risulta anonimo e poco coinvolgente. Il design è semplice, ma i testi lunghi non invogliano a leggere fino in fondo. I colori e lo stile
+utilizzati sono poco moderni, non creando così desiderabilità né coinvolgimento. Inoltre, la navigazione è frustrante: per compiere azioni come
+acquistare un prodotto, trovare i contatti o accedere a link specifici, l’utente deve seguire passaggi poco intuitivi. Non ci sono barre di ricerca e alcuni
+filtri di ricerca sono mancanti, che permettano all'utente di trovare ciò che desidera senza un eccessivo scrolling.
+
+Infine, il sito presenta problemi di accessibilità per persone con disabilità e risulta poco inclusivo.
+ANALISI “AS IS”
+10
+Sezione principale
+
+Pagine interne
+
+Pagine esterne
+
+CTA
+
+Sottoscrizione Link
+ARCHITETTURA DELL’INFORMAZIONE
+11
+
+1.0 HOME
+
+
+1.1 Info
+
+
+1.2 CTA ‘scopri di più’
+
+
+1.2.1 About
+
+Sezione dove è descritta la storia e filosofia
+del brand.
+
+
+1.3 Handbags
+
+Modelli di borse a mano o tracolla.
+
+
+1.4 Backpacks
+
+Modelli di borse a zaino.
+
+
+1.5 Hybrid
+
+Modelli di prodotti che possono essere usati
+sia come borse e zaini.
+1.6 Showroom
+
+Informazioni indirizzo, orario di apertura e
+ritiro prodotti al negozio.
+
+
+1.7 Retail
+
+Indirizzi dei vari punti vendita.
+
+
+1.8 LAB
+
+Breve descrizione del laboratorio in cui
+vengono esaltate le qualità del brand.
+
+
+1.9 Upcycling
+
+Descrizione della parola e viene spiegato il
+rapporto tra il brand e il materiale riciclato.
+
+
+1.10 Eva Szecsodi Limited Edition
+
+Informazioni sulla collaborazione con l’artista,
+alcune immagini dei suoi lavori e la possibilità
+di farsi personalizzare prodotti su
+ordinazione con le decorazioni di Eva.
+1.11 Vegan Proposal
+
+Viene spiegato come il rispetto per gli animali
+sia intrinseco nel brand.
+
+
+1.12 About us
+
+Troviamo una serie di link esterni in cui si
+parla del brand e dei suoi prodotti.
+
+
+1.13 Achievements
+
+Link al premio “GreenItaly” vinto dal brand nel
+2021.
+
+
+1.14 Initiatives
+
+Info sulle iniziative alle quali il brand partecipa
+attivamente.
+
+
+1.15 Agreements
+
+Il brand inserisce un link esterno a “Bottega
+Verde”.
+ARCHITETTURA DELL’INFORMAZIONE
+12
+
+2.0 SHOP
+
+
+2.1 - 2.2 - 2.3
+
+Info su termini e condizioni d’uso, metodi di
+pagamento, spedizione e resi.
+
+
+2.4 Personalizzazione del prodotto
+
+Info per richiedere la realizzazione di un
+prodotto personalizzato su ordinazione.
+
+
+Da 2.6 a 2.16
+
+Shop per i vari modelli e categorie.
+
+
+2.17 Outlet
+
+Info prodotti outlet, offerti ad un prezzo
+ridotto.
+
+
+2.18 More
+
+Shop per tracolle e altri accessori.
+
+
+2.19 Gift Card
+
+Info acquisto e uso gift card.
+3.0 ABOUT
+
+
+Da 3.1 a 3.7
+
+Info sulla mission, vision e filosofia del brand.
+
+
+3.8 La Repubblica
+
+Articolo de “La Repubblica” sul rapporto
+GreenItaly 2021.
+
+
+4.0 MODELLI
+
+
+4.1 Borse
+
+Modelli borse.
+
+
+4.2 Zaini
+
+Modelli zaini.
+
+
+4.3 Hybrid
+
+Modelli con la possibilità di essere utilizzati
+sia come borsa che zaino.
+5.0 MATERIALI
+
+
+Da 5.1 a 5.6
+
+Info sul materiale selezionato.
+
+
+5.7 Mercatino delle rimanenze
+
+Spazio virtuale dove mettere a disposizione
+materiali avanzati o non utilizzati.
+
+5.8 Manutenzione prodotto
+
+Info su servizio di manutenzione e
+rigenerazione del prodotto.
+
+
+5.0 RETAIL
+
+
+Lista dei punti vendita dove è possibile
+trovare i prodotti Ecodream.
+ARCHITETTURA DELL’INFORMAZIONE
+13
+
+7.0 CONTATTI
+
+
+7.1 Showroom
+
+Indirizzo showroom.
+
+
+7.2 Lab
+
+Indirizzo lab.
+
+
+7.3 Mappe
+
+Mappa per orientarsi.
+
+
+7.4 Modulo contatto
+
+Modulo scritto per contattare Ecodream.
+
+
+7.5 - 7.6 - 7.7
+
+Collegamento facebook, instagram e
+whatsapp.
+8.0 IL MIO ACCOUNT
+
+
+8.0.1 Pagina di tracciamento
+
+Pagina dove puoi inserire il numero di
+tracciamento o numero ordine per avere info
+sulla spedizione del proprio ordine.
+
+
+8.1 Accedi / Registrati
+
+Pagina dove è possibile registrarsi o accedere
+al sito.
+
+
+Da 8.1.1 a 8.1.5
+
+Pagine per info personali dell’utente: metodi di
+pagamento, ordini effettuati, indirizzi di
+consegna, dettagli account, Disponibili solo
+dopo essersi registrati.
+
+
+8.1.6 Esci da account
+
+Pagina dove è possibile disconnettersi dal
+proprio account.
+9.0 CARRELLO
+
+
+Carrello dove è possibile procedere con
+l’acquisto, inserire un codice promozionale o
+tornare allo shop per scegliere altri prodotti.
+ARCHITETTURA DELL’INFORMAZIONE
+14
+Chi sono i competitor diretti di Ecodream?
+
+
+Il settore della moda è vasto e variegato. Tuttavia, una gran parte dei prodotti viene ancora realizzata senza considerare principi etici e sostenibili,
+complice il fenomeno del fast fashion, che contribuisce pesantemente all'inquinamento e allo spreco di risorse. 
+
+Fortunatamente, la slow fashion e l’impegno a realizzare prodotti in modo responsabile, rispettando l'ambiente, gli animali e le persone, stanno entrando
+in modo considerevole nel nostro mercato.
+
+
+Competitor
+
+
+Oltre ai brand che esamineremo, esistono numerose altre aziende che producono borse, accessori o abbigliamento ecosostenibili.
+
+In questa analisi, ci concentreremo su marchi con caratteristiche simili a quelle di Ecodream, utilizzando i seguenti criteri di valutazione:
+
+Origine del prodotto: Made in Italy;
+
+Prodotti e produzione: Etici, sostenibili e vegan-friendly;
+
+Ideologia: Slow fashion;
+
+Canale di vendita: E-commerce.
+
+
+Questa ricerca si focalizzerà sulle caratteristiche e sulle funzionalità degli e-commerce dei vari competitor, con l’obiettivo di migliorare il sito web e
+l’esperienza utente del brand ‘Ecodream’.
+ANALISI DEI COMPETITOR
+15
+
+EXSEAT
+
+
+Un brand italiano che trasforma materiali di
+scarto come cinture di sicurezza e tessuti
+recuperati da auto in disuso in borse e zaini
+unici. Tutti i prodotti sono realizzati
+artigianalmente in Italia, seguendo una
+filosofia di upcycling e sostenibilità
+ambientale.
+STUDIO SARTA
+
+
+Questo marchio palermitano nato nel 2017 si
+distingue per l'artigianalità e l'uso di materiali
+locali come la paglia di Vienna. Studio Sarta
+unisce tradizione e modernità, con una forte
+attenzione alla sostenibilità. Le borse sono
+interamente fatte a mano, unendo design
+contemporaneo e tecniche artigianali italiane.
+EUTERPE
+
+
+Specializzato in borse sostenibili Made in
+Italy, Euterpe si distingue per l'utilizzo di
+materiali di alta qualità e design artigianale. Il
+brand mira a offrire borse lussuose a prezzi
+accessibili, puntando su etica, artigianalità e
+sostenibilità. I materiali utilizzati sono
+certificati e il packaging segue rigorosi
+standard eco-compatibili.
+CINGOMMA
+
+
+Con sede a Torino, Cingomma è un brand che
+si dedica alla produzione di accessori
+sostenibili e vegan-friendly. Riciclano camere
+d'aria di biciclette per creare cinture,
+portafogli, borse e zaini. Ogni pezzo è unico e
+completamente privo di materiali di origine
+animale.
+MALÌA LAB
+
+
+Fondato da Flavia Amato, questo brand si
+concentra su abbigliamento e accessori
+sostenibili realizzati con materiali biologici
+come cotone e lino. Malìa Lab promuove la
+trasparenza nella produzione e il rispetto per
+l'ambiente, garantendo prodotti certificati e
+cruelty-free.
+TOO ITALY
+
+
+Marchio indipendente di accessori vegan e
+sostenibili, nato nel 2011. Questo brand
+produce borse e zaini utilizzando materiali
+ecologici come PVC bullonato, tessuti di
+riciclo e gomma. Too Italy è noto per
+l'attenzione all'etica ambientale e per il design
+innovativo dei suoi prodotti, che unisce
+tradizione e sostenibilità. Il brand ha ricevuto
+riconoscimenti da associazioni come la LAV e
+la PETA per il suo impegno nella moda
+cruelty free
+ANALISI DEI COMPETITOR
+16
+Responsive Design
+Login/Registrazione
+Barra di ricerca
+Filtri
+Acquisto no login
+Preferiti
+Ordina per
+Nuovi arrivi
+Best Seller
+Elementi Correlati
+Disponibilità
+Promo
+Info Materiali
+Recensioni
+News Letter
+ECODREAM EXSEAT EUTERPE MALIA LAB STUDIO SARTA CINGOMMA TOO ITALY
+ANALISI DEI COMPETITOR
+17
+Blog
+Breadcrumbs
+Live Chat
+Termini d’uso
+Social Media
+FAQ
+N. prodotti per pag.
+Condividi
+Storia ordini
+Restituzione acquisti
+Metodi di pagamento
+Pagamento a rate
+Personalizzazione
+Spedizione gratuita
+Contatti
+ECODREAM EXSEAT EUTERPE MALIA LAB STUDIO SARTA CINGOMMA TOO ITALY
+ANALISI DEI COMPETITOR
+18
+Il target
+
+
+Dall'analisi delle interazioni online, emerge che il livello di partecipazione da parte degli utenti è piuttosto basso e non fornisce informazioni
+approfondite. Tuttavia, tra coloro che hanno interagito, la maggioranza sono donne dai 35 ai 40 anni.
+
+Il brand si descrive come giovane e focalizzato su prodotti eco-sostenibili, accessibili a una vasta gamma di consumatori.
+
+
+Sulla base di queste informazioni, è possibile delineare un profilo target con caratteristiche comuni:
+
+Genere: prevalentemente donne;
+
+Età: tra i 25 e i 45 anni;
+
+Fascia economica: media;
+
+Etica: orientata verso scelte sostenibili, rispettose dell’ambiente e degli animali;
+
+Rapporto con la tecnologia: uso frequente e consapevole.
+
+
+Obiettivi di ricerca del sondaggio
+
+
+Non essendo presenti recensioni sul sito e sui social media ho ritenuto opportuno per comprendere meglio le dinamiche del targhet ho ritenuto
+opportuno sottoporre un questionario di 18 domande a 10 donne tra i 25 e i 40 anni con lo scopo di analizzare:
+
+le loro abitudini di acquisto;
+
+l'impatto delle funzionalità di un sito e-commerce sul comportamento degli utenti;
+
+le loro preferenze e criteri di scelta durante l'acquisto di borse o zaini;
+
+aree critiche del sito.
+TARGET E USER RESEARCH
+19
+Dove acquisti di solito?
+Online
+Negozio fisico
+55% 45%
+4. Hai mai acquistato prodotti da
+brand sostenibili?
+Si
+No
+65% 35%
+Con quale dispositivo preferisci
+acquistare online?
+Pc
+Cellulare
+Tablet
+39% 60% 1%
+5. Quando effettui un acquisto online,
+preferisci che il prodotto sia in pronta
+consegna?
+Si
+No
+Non lo
+considero
+50% 10% 40%
+3. Possiedi abbigliamento ecologico
+nel tuo armadio?
+Si
+No
+95% 5%
+6. Con quale frequenza acquisti borse
+o zaini online?
+Raramente
+Una volta l’anno
+Più volte l’anno
+Ogni 2-3 anni
+35% 45% 20% 0%
+TARGET E USER RESEARCH
+20
+7. Qual è il principale fattore che consideri
+quando acquisti una borsa o uno zaino online?
+Qualità/Prezzo
+Materiale
+Brand
+Design
+Altro
+47% 30% 2% 15% 6%
+10. Quanto spenderesti per una borsa
+o zaino ecosostenibile?
+0-20€
+20-50€
+50-100€
+100-250€
+2% 49% 45% 4%
+8. Quanto influisce la qualità dei
+materiali nella tua scelta?
+Molto
+Abbastanza
+Poco
+58% 35% 7%
+11. Quando acquisti, poni attenzione
+alle info sulla produzione e sui
+materiali utilizzati?
+Si
+No
+80% 20%
+9. Preferisci prodotti realizzati in
+maniera artigianale o ti interessa di
+più il design e la funzionalità?
+Artigianale
+Funzionalità
+38% 62%
+12. Quale delle proposte del sito
+consideri maggiormente per un
+acquisto?
+Borse
+Zaini
+Hybrid
+67% 3% 30%
+TARGET E USER RESEARCH
+21
+13. Qual è la tua fascia d’età?
+18-24 anni
+25-34 anni
+35-44 anni
+45+ anni
+20% 40% 35% 30%
+16. Condividi i tuoi acquisti sui social
+media o con gli amici?
+Si
+No
+2% 49%
+14. Quante borse o zaini possiedi?
+0-4
+5-9
+10+
+17% 78% 5%
+17. Quanto è importante per te
+leggere le recensioni del prodotto?
+Molto
+Abbastanza
+Poco
+58% 35% 7%
+15. Hai mai abbandonato un acquisto
+a causa di problemi con il sito?
+Si
+No
+38% 62%
+18. Consiglieresti Ecodream?
+Si
+No
+63% 37%
+TARGET E USER RESEARCH
+22
+Cosa abbiamo scoperto
+
+
+Dalla ricerca emerge che la maggior parte degli utenti preferisce fare acquisti
+online, con il 60% che predilige questa modalità e l’88% che utilizza il telefono per
+navigare sui siti e-commerce.
+
+Il 95% degli intervistati possiede abbigliamento ecologico nel proprio armadio , e
+più della metà (65%) acquista prodotti da brand sostenibili.
+
+Gli intervistati inoltre vogliono trasparenza sui materiali e sui processi di
+produzione, senza però rinunciare, nella scelta, alla funzionalità del prodotto.
+
+I principali criteri di scelta si concentrano sul rapporto qualità/prezzo (47%) e sui
+materiali (30%).
+
+Per quanto riguarda l’esperienza d'acquisto online, la maggioranza ha almeno una
+volta abbandonato l’acquisto a causa di problemi con il sito e ritiene che le
+recensioni del prodotto siano fondamentali .
+
+La maggioranza degli utenti (49%) sarebbe disposta a spendere tra i 20 e i 50€,
+con un ulteriore 45% che opterebbe per prodotti tra i 50€ e i 100€.
+
+Solo una piccola parte degli intervistati (4%) spenderebbe oltre i 250€ per una
+borsa o uno zaino.
+
+Tuttavia, molti hanno espresso insoddisfazione per il sito e-commerce attuale,
+giudicato poco intuitivo e frustrante da navigare. Questo feedback suggerisce la
+necessità di ottimizzare il sito, soprattutto la versione mobile, per garantire una
+navigazione più fluida e personalizzabile.
+OUTCOME
+23
+Persona 1
+
+
+NOME: Giulia
+
+ETÀ: 28 anni
+
+PROFESSIONE: Designer freelance
+
+LUOGO: Milano
+
+
+TECNOLOGIA: Usa il computer e lo smartphone per lavoro e acquisti online. È attiva
+sui social media e predilige Instagram per scoprire nuovi brand.
+
+VALORI: Molto attenta alla sostenibilità, si informa sulle certificazioni dei prodotti
+che acquista e preferisce materiali riciclati o biodegradabili.
+
+COMPORTAMENTO D’ACQUISTO: Giulia è disposta a spendere un po' di più per
+prodotti che rispettano l'ambiente e sono cruelty-free. Ama i brand che comunicano
+i loro valori in modo chiaro e trasparente. Solitamente acquista online, ma le piace
+anche leggere recensioni e guardare video di unboxing o review sui social prima di
+prendere una decisione.
+
+OBIETTIVI: Cercare un marchio che rifletta i suoi valori, con un buon rapporto
+qualità-prezzo. Vuole essere sicura che i prodotti siano realmente sostenibili e di
+qualità.
+
+SFIDE: A volte è difficile trovare informazioni precise sulla provenienza dei materiali
+e sui processi produttivi. Vorrebbe una maggiore trasparenza. Designed by Freepik
+PERSONAS, SCENARIO, USER JOURNEY
+24
+Scenario persona 1: Giulia
+
+
+Caso d'uso: Acquisto di una borsa da lavoro eco-sostenibile per il suo nuovo
+progetto;
+
+Obiettivo: Acquistare una borsa funzionale, stilosa e sostenibile per il lavoro;
+
+Sfida: Trovare un prodotto che rifletta i suoi valori senza comprometterne la qualità
+o il design;
+
+
+Giulia sta per avviare un nuovo progetto di design con un'azienda che ha un forte
+impegno verso la sostenibilità. Vuole una borsa da lavoro che rifletta i suoi stessi
+valori ambientali, ma che sia anche funzionale per trasportare il suo laptop, blocchi
+per schizzi e altro materiale. Dopo aver fatto ricerche su Instagram, scopre il brand
+Ecodream.
+
+Attratta dall’estetica minimalista e dai materiali riciclati usati per le borse, decide di
+visitare il sito web. Qui naviga facilmente nella sezione "Borse" e legge le descrizioni
+dettagliate sui materiali eco-friendly. Giulia è soddisfatta della trasparenza sulle
+certificazioni ambientali del prodotto.
+
+Completa l’acquisto con un piccolo sconto trovato tramite la newsletter del sito,
+condividendo poi la sua esperienza sui social media.
+Designed by Freepik
+PERSONAS, SCENARIO, USER JOURNEY
+25
+User Journey:
+
+Giulia
+Conoscenza del brand Navigazione Scelta del Prodotto Acquisto
+Activities
+Opportunities
+Navigando su Instagram trova la
+pagina del brand, vede alcuni
+modelli che attirano la sua curiosità
+e clicca sul link al sito web.
+Homepage
+Questa borsa è perfetta, proprio
+come la stavo cercando!! Vediamo
+le recensioni...strano non ci sono,
+forse sul sito web troverò qualcosa.
+😍
+Non è presente la possibilità di
+inserire o leggere recensioni sul
+sito web.
+Includere recensioni e dare la
+possibilità di poterle scrivere se
+acquistato un prodotto e arricchire
+il profilo instagram.
+Sul sito trova subito la sezione “SHOP”,
+e clicca sulla sezione dei modelli di
+borsa che vorrebbe acquistare.
+Shop Modelli
+Le categorie sono davvero tante,
+vediamo se riesco a trovare lo stesso
+modello della foto... Ma questi nomi a
+cosa si riferiscono?
+🤔
+Le categorie sono tante ma non
+descritte in modo appropriato, è facile
+perdersi tra un prodotto e l’altro.
+Rivedere la nominazione delle
+categorie e aggiungere filtri per
+trovare subito il prodotto
+desiderato.
+Aggiunge una borsa al carrello, clicca
+poi sulla sezione MATERIALI . Volendo
+completare l’acquisto cerca il carrello,
+ma lo riesce a trovare solo dopo una
+lunga navigazione.
+Materiali Carrello
+Mi piace molto la trasparenza dei
+materiali usati e queste informazioni,
+fammi vedere la mia borsa con quale di
+questi è stata creata, ma dov’è il carrello?
+😥
+Manca l’icona del carrello cliccabile
+durante lo shopping, ci si aspetta di
+trovarla in alto a destra del sito.
+Aggiungere una sezione dedicata
+solo al carrello.
+Si registra e compila i campi richiesti e
+per il pagamento utilizza Google Pay.
+Account Pagamento
+Ok questo era l’ultimo dato, come
+pagamento userò Google Pay, non amo
+inserire il numero della mia carta...
+Spero arrivi presto!
+🙂
+Tempi di spedizione poco chiari al
+momento del check-out.
+Dare info più dettagliate sui tempi
+di spedizione.
+Touchpoints
+Toughts
+Emotions
+Pain Points
+PERSONAS, SCENARIO, USER JOURNEY
+26
+Persona 2
+
+
+NOME: Marta
+
+ETÀ: 40 anni
+
+PROFESSIONE: Insegnante di scuola primaria
+
+LUOGO: Torino
+
+
+TECNOLOGIA: Usa lo smartphone per fare acquisti online e gestire attività
+quotidiane. Non è molto attiva sui social media, ma li consulta per seguire brand e
+ottenere offerte.
+
+COMPORTAMENTO D’ACQUISTO: Marta cerca prodotti eco-sostenibili, ma deve
+fare attenzione al budget. Preferisce acquistare articoli che siano durevoli e prodotti
+in modo etico. Crede che il rispetto per l’ambiente debba essere accessibile a tutti.
+
+OBIETTIVI: Trovare prodotti che siano non solo eco-sostenibili, ma che
+contribuiscano a una causa più ampia, come il sostegno a comunità locali o progetti
+ambientali.
+
+SFIDE: Le manca spesso il tempo per fare ricerche approfondite su ogni prodotto.
+Vorrebbe che i brand evidenziassero più chiaramente i loro progetti sociali e
+ambientali direttamente sui loro siti web e nei loro e-commerce.
+Designed by Freepik
+PERSONAS, SCENARIO, USER JOURNEY
+27
+Scenario persona 2: Marta
+
+
+Caso d'uso: Acquisto di uno zaino da usare anche come borsa per il lavoro e la
+quotidianità;
+
+Obiettivo: Acquistare uno zaino sostenibile e conveniente per un uso quotidiano e
+versatile;
+
+Sfida: Trovare un prodotto di qualità che sia allo stesso tempo eco-sostenibile e
+accessibile economicamente;
+
+
+Marta ha bisogno di uno zaino pratico e resistente da usare sia per il lavoro come
+insegnante che per le gite fuori porta con i suoi figli. È attenta all’ambiente e cerca
+sempre di acquistare prodotti eco-sostenibili, ma deve stare attenta al budget.
+Navigando su Internet, scopre Ecodream grazie a un post in un gruppo Facebook
+dedicato a mamme e prodotti sostenibili. Entra nel sito e apprezza la sezione
+"Outlet" dove trova uno zaino prodotto con scarti di produzione e rimanenze di
+tessuto, una buona capienza e a prezzo scontato.
+
+Dopo aver verificato le opzioni di reso e cambio, decide di procedere con l'acquisto.
+
+Lo zaino le viene consegnato in pochi giorni e Marta è molto soddisfatta: lo usa sia
+per il lavoro che per le attività con i figli.
+
+Successivamente, condivide il brand con le sue colleghe a scuola.
+Designed by Freepik
+PERSONAS, SCENARIO, USER JOURNEY
+28
+User Journey:
+
+Marta
+Conoscenza del brand Navigazione Scelta del Prodotto Acquisto
+Activities
+Opportunities
+Partecipa a un gruppo Facebook
+dedicato agli eco-consapevoli e
+legge tra i consigliati lo shop
+Ecodream, clicca sul link per avere
+maggiori informazioni.
+Homepage
+Vediamo se la produzione è
+sostenibile come dicono in questo
+post, forse comprerò uno zaino per
+il lavoro e per tutti i giorni.
+🙂
+I social non hanno una descrizione
+approfondita su Ecodream.
+Includere recensioni e dare la
+possibilità di poterle scrivere se
+acquistato un prodotto e arricchire
+i profili social.
+Clicca subito sulla sezione “ABOUT”,
+alcuni testi le sembrano link ma non lo
+sono. Nella sezione “MODELLI non
+riesce ad inserire nel carrello il
+prodotto selezionato.
+About Modelli
+I testi sono lunghissimi! Perchè alcuni
+caratteri sono in grassetto?
+
+Non sono cliccabili...Perchè non posso
+inserire questo zaino nel carrello?
+🙁
+Lo stile del testo non è molto chiaro,
+link e parole sottolineate non sono
+differenziate.
+Scegliere uno stile per il testo che
+sia leggibile e chiaro a tutti gli
+utenti per differenziare parole e
+link.
+Finalmente trova la sezione SHOP
+ma riesce a trovare lo zaino visto nella
+sezione modelli dopo un lungo
+scrolling.
+Shop
+Ok ho trovato lo shop, ma ora come
+ritrovo lo zaino che mi piace? Perchè il
+colore non corrisponde con la
+descrizione?
+😟
+I prodotti sono rappresentati male
+dalle categorie e dalle foto.
+Rivedere la scelta delle immagini e
+la descrizione dei modelli e
+categorie.
+Una volta trovato il carrello rimuove per
+sbaglio il prodotto, ma non riesce a
+trovare un tasto per tornare indietro,
+decide di ricaricare completamente il
+sito e ricercare il prodotto.
+Carrello Homepage
+Oh no!!! Ho rimosso lo zaino, come si
+torna indietro? Non lo trovo.
+
+Mi conviene ricominciare da capo...
+😒
+Non esiste un pulsante per tornare
+indietro e questo può creare
+confusione nell’utente.
+Inserire un pulsante per tornare
+indietro.
+Touchpoints
+Toughts
+Emotions
+Pain Points
+PERSONAS, SCENARIO, USER JOURNEY
+29
+Persona 3
+
+
+NOME: Marco
+
+ETÀ: 32 anni
+
+PROFESSIONE: Sviluppatore software
+
+LUOGO: Firenze
+
+
+TECNOLOGIA: Marco è altamente tecnologico, utilizza sia il computer che lo smartphone
+per lavoro e per gli acquisti online. È molto attivo sui social media, specialmente su Twitter
+e Reddit, dove segue discussioni legate a tecnologia e sostenibilità.
+
+COMPORTAMENTO D’ACQUISTO: Marco cerca prodotti che combinano stile, funzionalità
+e sostenibilità. Quando acquista zaini, preferisce design minimalisti e materiali ecofriendly. Apprezza i brand che utilizzano tecnologie innovative per ridurre l'impatto
+ambientale e che offrono trasparenza sui loro processi produttivi. È disposto a pagare di
+più per prodotti di qualità che durino nel tempo.
+
+OBIETTIVI: Trovare prodotti sostenibili, ma anche pratici per il lavoro e il tempo libero.
+Vuole oggetti che si adattino al suo stile di vita attivo e tecnologico, con un design che
+rifletta le sue passioni per la tecnologia e l'ecologia.
+
+SFIDE: A volte trova difficile conciliare estetica, sostenibilità e prezzo. Vorrebbe che più
+brand offrano prodotti che abbiano un design moderno, siano eco-sostenibili e
+tecnologicamente innovativi, senza un costo eccessivo. Designed by Freepik
+PERSONAS, SCENARIO, USER JOURNEY
+30
+Scenario persona 3: Marco
+
+
+Caso d'uso: Acquisto di uno zaino per il lavoro che unisca design moderno e
+sostenibilità;
+
+Obiettivo: Acquistare uno zaino moderno, tecnologico e sostenibile per il lavoro;
+
+Sfida: Trovare un prodotto che unisca design tecnologico, materiali eco-friendly e
+praticità per l'uso quotidiano;
+
+
+Marco ha bisogno di uno zaino per il lavoro che sia comodo, capiente e abbia un
+design moderno. È molto attento all’impatto ambientale dei suoi acquisti, quindi
+cerca sempre di scegliere prodotti realizzati con materiali eco-sostenibili.
+
+Durante una discussione su Reddit, scopre Ecodream come suggerimento per borse
+e zaini fatti con materiali riciclati e tecnologie innovative.
+
+Dopo aver visitato il sito, Marco esplora i prodotti e legge approfonditamente le
+informazioni su come gli zaini vengono prodotti, notando che il brand utilizza
+materiali riciclata per la maggior parte dei suoi articoli.
+
+Impressionato dal design pulito e l’approccio sostenibile, Marco compra uno zaino
+che calza a pennello con il suo stile di vita tecnologico e minimal.
+
+Apprezza molto la trasparenza sulle certificazioni ambientali e dei processi di
+produzione del prodotto.
+
+Dopo un paio di settimane è così soddisfatto del suo acquisto che condivide la sua
+esperienza nello stesso post Reddit.
+Designed by Freepik
+PERSONAS, SCENARIO, USER JOURNEY
+31
+User Journey:
+
+Marco
+Conoscenza del brand Navigazione Scelta del Prodotto Acquisto
+Activities
+Opportunities
+Legge discussioni su Reddit e scopre
+il brand Ecodream suggerito da altri
+utenti come un’ottima scelta per
+zaini eco-friendly. Entra nel sito, ma
+è un po’ confuso dalla homepage.
+Homepage
+La homepage di questo sito non è il
+massimo, dovrei cliccare tutte
+queste foto per avere info?? E cosa
+sono questi testi alla fine?
+🤔
+La home non presenta uno schema
+pratico di gestione del sito, è
+necessario scorrere fino in fondo.
+Ridurre la dimensione delle sezioni
+della home che non rappresentano
+info produzione o modelli.
+Raggruppare le categorie.
+Nella home clicca sulla foto con scritta
+backpacks , scorre vari modelli e ne
+vede le info. Convinto dalle info cerca
+delle recensioni o delle foto del
+modello dal vivo, non trovandone.
+Homepage Modelli
+Questo modello è interessante... forse
+proprio quello che cercavo! La
+produzione è scritta molto chiaramente,
+ma dove sono le recensioni o foto?
+🧐
+Non sono presenti foto che descrivano
+il prodotto come sarà tra le mani del
+cliente o recensioni.
+Rivedere la rappresentazione
+fotografica del prodotto.
+Legge quindi la politica di reso o
+cambio prodotto e le modalità di
+pagamento. Avendo la possibilità di
+reso decide di andare nello shop per
+mettere nel carrello lo zaino.
+Spedizioni Shop
+Beh almeno il reso è assicurato o posso
+cambiare lo zaino se non mi piace
+quando arriva, questo mi rassicura
+sull’acquisto...
+🙂
+Non è presente un collegamento alla
+politica di acquisto e reso nella sezione
+modelli.
+Inserire un collegamento alla
+politica di acquisto e reso anche
+nella sezione modelli.
+Dopo aver trovato faticosamente il
+carrello, si registra, compila i campi
+richiesti, vede se ci sono info per i tempi
+di ricezione e per il pagamento utilizza
+Paypal.
+Carrello Pagamento
+Non è segnato il giorno dell’arrivo del
+pacco, dovrò chiedere ad un vicino di
+prendere il pacco per me mentre sono al
+lavoro, questa è proprio una seccatura!!!
+😩
+Tempi di spedizione poco chiari al
+momento del check-out.
+Dare info più dettagliate sui tempi
+di spedizione.
+Touchpoints
+Toughts
+Emotions
+Pain Points
+PERSONAS, SCENARIO, USER JOURNEY
+32
+Opportunità emerse
+
+
+1. Migliorare chiarezza ed efficacia della home, con un layout intuitivo e moderno;
+
+2. Rivedere i testi, scrivendo le informazioni essenziali per l’utente e lasciare un link
+per maggiori approfondimenti;
+
+3. Sistemare stile del testo e colore; Rendere chiari i link;
+
+4. Sistemare la nominazione dei modelli ed ampliare le immagini che li
+rappresentano;
+
+5. Migliorare la sezione social e curarne il contenuto;
+
+6. Inserire una barra di ricerca per permettere all’utente di trovare con velocità e
+facilità quello che sta cercando;
+
+7. Inserire la sezione “preferiti”;
+
+8. Aggiungere la ricerca e ordine per filtri nella sezione shop e modelli;
+
+9. Dare la possibilità di inserire recensioni sull’acquisto effettuato ed inserirle nel
+sito;
+
+10. Sistemare l’icona del carrello in una posizione chiara e visibile in ogni pagina del
+sito;
+
+11. Inserire un tasto per tornare indietro;
+
+12. Dare maggiore chiarezza su tempi di spedizione e arrivo del prodotto acquistato. Designed by Freepik
+OPPORTUNITÀ
+33
+FOOTER LEGENDA
+Sezione principale
+
+Pagine interne
+
+Pagine esterne
+
+Nuovo
+
+CTA
+
+Sottoscrizione
+Link
+NEW SITEMAP
+34
+Modifiche alla sitemap di Ecodream
+
+
+Struttura:
+
+
+-Dalla Home si può passare ad ogni sezione del sito;
+
+-La sezione “Modelli” è stata unita alla sezione “Shop”;
+
+-Aggiunta sezione “Recensioni”;
+
+-Aggiunta possibilità di applicare filtri alla ricerca;
+
+-”Personalizzazione del prodotto” aggiunta alla categoria “Shop”;
+
+-Riordinata la sezione “About”;
+
+-Sezione “Materiali” è stata unita ad “About”;
+
+-Inserita la sezione “Retail” in “Dove siamo”, insieme a “Showroom”,
+“Lab” ed aggiunto “Negozi vicino a te”;
+
+-Sezione “Contatti” ampliata con “Numeri telefonici” e “Live chat”;
+
+-Aggiunto “Carrello”, con “Checkout”, facilmente cliccabile in ogni
+sezione del sito;
+
+-Aggiunta una “Wishlist”;
+
+-Nella sezione “Account” aggiunte “Ordini” e “Download”;
+
+-Ordinato il footer;
+
+-Aggiunta nel footer la possibilità di segnalare un problema;
+
+-Aggiunte “FAQ” nel footer.
+Funzionalità:
+
+
+-Aggiunta barra di ricerca;
+
+-Le recensioni sono visibili per ogni prodotto;
+
+-Inserito indicatore per segnalare la propria posizione rispetto al menù;
+
+-Aggiunta possibilità di applicare filtri alla ricerca;
+
+-Nella “wishlist” inserita sezione “consigliati per me”, in base agli
+articoli selezionati;
+
+-È stato aggiunto il tempo di spedizione ed il tracciamento dell’articolo.
+NEW SITEMAP
+35
+New User Journey:
+
+Giulia
+Conoscenza del brand Navigazione Scelta del Prodotto Acquisto
+Activities Navigando su Instagram trova la
+pagina del brand, vede alcuni
+modelli che attirano la sua curiosità
+e clicca sul link al sito web.
+Homepage
+Questa borsa è perfetta, proprio
+come la stavo cercando!! Vado a
+vedere qualche recensione sul sito
+ed il prezzo.
+😊
+È stata aggiunta una sezione per le
+recensioni, utile per nuovi utenti e
+per avere un feedback da chi è già
+cliente.
+Sul sito trova subito la sezione SHOP ,
+clicca per vedere i modelli e
+personalizzando i filtri riesce a trovare
+facilmente quello che cerca.
+Shop Modelli
+Ci sono tantissimi modelli, mettiamo
+qualche filtro nella ricerca... fantastico!
+😃
+L’aggiunta di filtri permette all’utente
+di trovare subito il prodotto che più si
+avvicina alle sue esigenze.
+Aggiunge una borsa al carrello, ed
+interessata al brand clicca sulla sezione
+“DOVE SIAMO e NEGOZI VICINO A TE”,
+vede un rivenditore a pochi km da casa
+sua. Torna al carrello.
+Dove siamo Carrello
+Oh! C’è un negozio vicino a me, sarà
+meglio passarci in settimana per vedere
+qualche altro modello, queste borse
+sembrano davvero magnifiche.
+😁
+Sono stati aggiunti i rivenditori del
+brand e la possibilità di cercarli vicino
+al proprio indirizzo.
+Si registra e compila i campi richiesti e
+per il pagamento utilizza Google Pay.
+Account Pagamento
+Ok questo era l’ultimo dato, come
+pagamento userò Google Pay.
+
+Non vedo l’ora che arrivi!!
+😍
+È stato aggiunto il tempo di
+spedizione ed il tracciamento
+dell’articolo.
+Touchpoints
+Toughts
+Emotions
+Pain Points
+
+Risolti
+NEW USER JOURNEY
+36
+New User Journey:
+
+Marta
+Conoscenza del brand Navigazione Scelta del Prodotto Acquisto
+Activities Partecipa a un gruppo Facebook
+dedicato agli eco-consapevoli e
+legge tra i consigliati lo shop
+Ecodream, clicca sul link dopo aver
+avuto un buon feedback dalle foto.
+Homepage
+Questo brand rispecchia appieno i
+miei valori...Questo zaino è perfetto
+per andare a lavoro ed in gita con i
+miei figli, ed ha ottime recensioni!
+😊
+I profili social più curati attirano il
+cliente verso il sito, dove le
+informazioni ora sono più facili da
+trovare.
+Sul sito trova subito la sezione “SHOP”,
+e clicca tra i modelli “Hybrid”, legge le
+specifiche dei prodotti ed i materiali
+con sono stati realizzati.
+About Modelli
+Sono molto soddisfatta della
+descrizione per ogni modello, c’è
+molta trasparenza sulla produzione e
+sui materiali usati.
+😃
+I profili social più curati attirano il
+cliente verso il sito, dove le
+informazioni ora sono più facili da
+trovare.
+Dopo aver visionato le foto sceglie
+quella che le piace di più e la mette nel
+carrello.
+Dove siamo Carrello
+Dalle foto mi sembrano tutti zaini
+versatili, proprio come lo stavo cercando!
+Le foto sono molto belle e descrivono
+bene il prodotto.
+😁
+La scelta delle immagini ora è più
+ampia e gli scatti ritraggono il
+prodotto in modo che il materiale sia
+ben visibile.
+Decide di acquistare lo zaino, per il
+pagamento e la registrazione si fa
+aiutare da suo figlio.
+Account Pagamento
+Tutto è andato a buon fine! Non vedo
+l’ora di mostrare questo acquisto alle
+mie colleghe, è stato più facile del
+previsto.
+😍
+Con il tasto “torna indietro” la
+navigazione del sito è più semplice,
+aiutata dall’indicatore della propria
+posizione nel sito.
+Touchpoints
+Toughts
+Emotions
+Pain Points
+
+Risolti
+NEW USER JOURNEY
+37
+New User Journey:
+
+Marco
+Conoscenza del brand Navigazione Scelta del Prodotto Acquisto
+Activities Legge discussioni su Reddit e scopre
+il brand Ecodream suggerito da altri
+utenti come un’ottima scelta per
+zaini eco-friendly. Entra nel sito e
+clicca sulla sezione about.
+Homepage About
+Finalmente un brand con prodotti
+eco-sostenibili, la sezione about è
+ordinata e c’è scritto tutto quello
+che ho bisogno di sapere.
+😊
+La sezione “ABOUT” è stata
+riordinata e selezionati i contenuti.
+Nella barra di ricerca cerca
+“backpacks” e al risultato applica dei
+filtri personalizzati.
+
+Scorrendo i vari modelli ne guarda le
+foto, recensioni e materiali.
+Shop Modelli
+Questo modello è interessante... proprio
+quello che cercavo! La produzione è
+scritta molto chiaramente, ottime anche
+le recensioni e dalle foto si vede bene!
+😃
+L’aggiunta della barra di ricerca aiuta
+la navigazione dell’utente e gli
+permette di trovare subito ciò di cui ha
+bisogno.
+Mette lo zaino che gli piace nel
+carrello. Legge quindi la politica di
+reso o cambio prodotto e le modalità
+di pagamento. Nota anche la
+possibilità di tracciare il proprio pacco.
+Reso
+Trovare queste info è stato
+semplicissimo, poter tracciare il pacco mi
+rassicura parecchio.
+😁
+Inserire nel footer la politica di reso,
+cambio prodotto e pagamento ne
+semplifica la ricerca nel sito.
+Clicca sul carrello, va al checkout, si
+registra, compila i campi richiesti, per il
+pagamento utilizza Paypal e gli vengono
+forniti i tempi di ricezione
+Carrello Pagamento
+Conoscendo il giorno di ricezione posso
+organizzarmi con il lavoro e non
+infastidire nessuno dei miei vicini.
+Ottimo anche il pagamento con paypal.
+😍
+L’ aggiunta del tempo di spedizione ed
+il tracciamento dell’articolo aiutano il
+cliente con il ricevimento dell’articolo.
+Touchpoints
+Toughts
+Emotions
+Pain Points
+
+Risolti
+NEW USER JOURNEY
+38
+ACCESSIBILITÀ
+39
+Analizzando il sito, con particolare attenzione a cinque pagine di fondamentale importanza,
+con l’aiuto di Tool a supporto della progettazione accessibile, come WebAIM e WAVE,
+abbiamo constatato che Ecodream non sia accessibile.
+
+
+I principali problemi riscontrati riguardano la navigazione da tastiera e lo screen reader. Un
+indicatore di posizione e focus, insieme ad un navigation order ordinato sono
+fondamentali per una navigazione fluida e accessibile, come lo sono le descrizioni delle
+immagini ed un testo alternativo a icone e logo.
+
+
+Da non trascurare è sicuramente una revisione del layout, l’interfaccia risulta poco chiara e
+disordinata, i testi sono troppo lunghi, l’inserimento di parole chiave aiuta il lettore a
+completare la lettura ed il sovraccarico cognitivo, insieme ad un giusto contrasto tra testo e
+immagini.
+
+
+Inoltre al sito mancano alcune funzionalità essenziali per un e-commerce, come una barra
+di ricerca, wishlist, icona carrello ed icona profilo nella navigation bar.
+
+
+Per agevolare la ricerca del prodotto desiderato inoltre serviranno dei filtri e breadcrumbs.
+
+
+Per completare il pagamento è necessaria la compilazione dei dati personali insieme
+all’accesso del proprio profilo, offrire una modalità di log-in e compilazione automatica
+tramite social network o google migliorerebbe l’accessibilità del sito, creando soddisfazione
+per l’esperienza nell’utente. Designed by Freepik
+ACCESSIBILITÀ
+40
+WIREFRAME
+Griglia Layout, Scala Tipografica, Wireframe desktop e mobile, 
+
+Wireflow utente.
+progetto completo
+
+desktop
+progetto completo 
+
+mobile
+41
+Per il desktop ho utilizzato una griglia 8 px a 12 colonne con gutter di 20
+e margini di 60.
+
+
+Risoluzione schermo desktop: 1280 px
+Per il mobile ho utilizzato una griglia a 4 colonne, gutter di 8 e margine di
+16.
+
+
+Risoluzione schermo mobile: 375 px
+GRIGLIA LAYOUT
+42
+Scala tipografica
+
+
+
+Desktop: Mobile:
+SCALA TIPOGRAFICA
+43
+Navigation bar:
+
+
+
+Desktop: Mobile:
+-La navigation bar è cambiata drasticamente, è stata riorganizzata la sezione per eliminare la frustrazione e confusione nei vari passaggi, come
+succedeva per esempio tra i modelli e lo shop.
+
+
+-L’aggiunta della barra di ricerca può migliorare significativamente l’esperienza dell’utente, offrendo un modo semplice e veloce di trovare nel sito ciò
+che si sta cercando.
+
+-Ho integrato una pagina “preferiti” per permettere all’utente di salvare i prodotti che preferisce e ritrovarli facilmente.
+
+-L’icona del carrello ora è visibile da ogni sezione del sito.
+
+-”Il mio account” è stato sostituito da un’icona apposita, potrebbe essere più familiare per gli utenti ed aiuta a semplificare l’interfaccia.
+WIREFRAME - NAVIGATION BAR
+44
+Footer:
+
+
+
+Desktop: Mobile:
+Il footer non era completo e distribuito in modo ottimale.
+
+Nella nuova versione, insieme ad una riorganizzazione, sono state aggiunte due sezioni.
+
+La prima sezione contiene “FAQ” e “SEGNALA UN PROBLEMA” per aiutare l’utente in caso in domande o intoppi.
+
+La seconda sezione invece fa spazio alle “CONDIZIONI D’USO”, “SPEDIZIONI E RESI” e “METODI DI PAGAMENTO”, informazioni fondamentali per uno
+shop online.
+WIREFRAME - FOOTER
+45
+Hamburger menù:
+
+
+
+Cambio radicale anche per l’hamburger menù,
+mantenendo l’ordine delle pagine della versione
+desktop: Shop, About, Dove siamo e Contatti con le
+relative sottopagine.
+
+Presa la decisione di mantenere visibile la homepage
+in trasparenza quando l’hamburger menu è aperto,
+per consentire all’utente di riuscire ad orientarsi nel
+sito.
+
+Aggiunto tasto per chiusura menù in alto a destra
+con “x”.
+
+
+In questo modo l’esperienza dell’utente sarà più
+semplice, intuitiva e meno confusionale.
+WIREFRAME - FOOTER
+46
+Homepage - desktop
+WIREFRAME - HOMEPAGE
+47
+Homepage - mobile
+WIREFRAME - HOMEPAGE
+48
+Homepage - mobile
+WIREFRAME - HOMEPAGE
+49
+Shop - desktop
+WIREFRAME - SHOP
+50
+Shop - mobile
+WIREFRAME - SHOP
+51
+Modelli - desktop
+WIREFRAME - MODELLI
+52
+Modelli - mobile
+WIREFRAME - MODELLI
+53
+Scheda prodotto - desktop
+WIREFRAME - SCHEDA PRODOTTO
+54
+Scheda prodotto - mobile
+WIREFRAME - SCHEDA PRODOTTO
+55
+Carrello - desktop
+WIREFRAME - CARRELLO
+56
+Carrello - mobile
+WIREFRAME - CARRELLO
+57
+WIREFRAME - WIREFLOW
+58
+USER INTERFACE
+UI kit, Interazione, User flow
+progetto completo
+
+desktop
+progetto completo 
+
+mobile
+59
+Color Palette
+
+
+La palette cromatica è stata sviluppata mantenendo l’identità visiva del
+sito Ecodream, con miglioramenti basati sulle linee guida del Web Content
+Accessibility Guidelines (WCAG) per garantire una maggiore leggibilità e
+usabilità. 
+
+
+Colore primario: Moss Green
+
+Derivato direttamente dal logo di Ecodream, questo colore è stato
+leggermente ottimizzato per migliorarne l’accessibilità, assicurando un
+contrasto adeguato per la lettura senza alterare l’identità del brand.
+
+
+Colore secondario: Muted Burgundy
+
+Per evidenziare le call-to-action e gli elementi interattivi, ho scelto una
+tonalità complementare che crea un contrasto armonioso con il colore
+primario. Questa sfumatura, nelle sue varianti, viene utilizzata per dare
+risalto senza compromettere l’equilibrio visivo.
+
+
+Colori neutri: Black & Almond Milk
+
+Questi colori sono stati selezionati per garantire una solida base alla
+palette. Il nero viene utilizzato per elementi di testo ad alto contrasto,
+mentre Almond Milk funge da sfondo chiaro, offrendo un'esperienza visiva
+più morbida e accogliente.
+Colori 
+
+primari
+Moss Green
+
+#3b4629
+#94ab6f #c4d0af
+Colori 
+
+secondari
+Muted Burgundy
+
+#824c52
+#ab6f76 #9f414c
+Almond Milk
+
+#fbf6f1
+UI KIT
+60
+Colori 
+
+neutri
+Black
+
+#000000
+
+Accessibilità Contrasto Colori - WCAG
+#3b4629
+#fbf6f1
+#5a752f
+#fbf6f1
+#000000
+#fbf6f1
+Rapporto di contrasto 9.34:1
+
+WCAG 2 AA
+
+WCAG 2 AAA
+Rapporto di contrasto 4.86:1
+
+WCAG 2 AA
+
+WCAG 2 AAA
+Rapporto di contrasto 19.55:1
+
+WCAG 2 AA
+
+WCAG 2 AAA
+#824c52
+#fbf6f1
+#9f414c
+#fbf6f1
+#ab6f76
+#fbf6f1
+Rapporto di contrasto 6.30:1
+
+WCAG 2 AA
+
+WCAG 2 AAA
+Rapporto di contrasto 5.86:1
+
+WCAG 2 AA
+
+WCAG 2 AAA
+Rapporto di contrasto 3.71:1
+
+WCAG 2 AA
+
+WCAG 2 AAA
+UI KIT
+61
+Tipografia - Desktop Title/Header 1 Family: Poppins
+
+Weight: Bold
+
+Size: 64 px Title/Header 1
+Aa
+
+Poppins - headers
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+A B C D E F G H I J K L M N O P Q R S T U V W
+X Y Z
+
+1 2 3 4 5 6 7 8 9 - ! ? = € “ & % / () <> ~ ÷
+Aa
+
+Inter - testi
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+A B C D E F G H I J K L M N O P Q R S T U V W
+X Y Z
+
+1 2 3 4 5 6 7 8 9 - ! ? = € “ & % / () <> ~ ÷
+Header 2 Family: Poppins
+
+Weight: Bold
+
+Size:
+52 px Header
+2
+Header
+3 Family: Poppins
+
+Weight: Bold
+
+Size: 44 px
+Header
+3
+Header 4 Family: Poppins
+
+Weight: Bold
+
+Size:
+32 px
+Header
+4
+Header
+5 Family: Poppins
+
+Weight: Bold
+
+Size: 24 px
+Header
+5
+Body Family:
+Inte
+r
+
+Weight:
+Reg
+ula
+r
+
+Size: 2
+0 px
+Body
+L
+a
+ble Family:
+Inte
+r
+
+Weight:
+Reg
+ula
+r
+
+Size: 16 px
+Lable
+UI KIT
+62
+Tipogra
+fia
+
+M
+o
+bile
+Title/Header H1 Header H1
+Font: Poppins
+Size: 36px
+Weight: Bold
+Header H2 Header H2
+Font: Poppins
+Size: 32px
+Weight: Bold
+Header H3 Header H3
+Font: Poppins
+Size: 28px
+Weight: Bold
+Header H4 Header H4
+Font: Poppins
+Size: 24px
+Weight: Bold
+Header H5 Header H5
+Font: Poppins
+Size: 20px
+Weight: Bold
+Body - Bold
+Font: Inter
+Size: 16px
+Weight: Bold
+Body -
+Semibold
+Font: Inter
+Size: 16px
+Weight:
+Semibold
+Body
+Font: Inter
+Size: 16px
+Weight: Regular
+Label
+Font: Inter
+Size: 1
+3px
+Weight: Regular
+Lorem ipsum dolor sit amet consectetur. Fermentum
+amet convallis euismod cras. Tristique mi potenti
+ultricies venenatis egestas vitae. Tempus egestas sed
+turpis netus imperdiet diam turpis gravida. Dolor et eu
+amet posuere dictumst nec lacus ullamcorper donec.
+Lorem ipsum dolor sit amet consectetur. Fermentum
+amet convallis euismod cras. Tristique mi potenti
+ultricies venenatis egestas vitae. Tempus egestas sed
+turpis netus imperdiet diam turpis gravida. Dolor et eu
+amet posuere dictumst nec lacus ullamcorper donec.
+Lorem ipsum dolor sit amet consectetur. Fermentum amet
+convallis euismod cras. Tristique mi potenti ultricies
+venenatis egestas vitae. Tempus egestas sed turpis netus
+imperdiet diam turpis gravida. Dolor et eu amet posuere
+dictumst nec lacus ullamcorper donec.
+Lorem ipsum dolor sit amet consectetur. Fermentum amet convallis
+euismod cras. Tristique mi potenti ultricies venenatis egestas vitae.
+Tempus egestas sed turpis netus imperdiet diam turpis gravida. Dolor
+et eu amet posuere dictumst nec lacus ullamcorper donec.
+UI KIT
+63
+Interazioni
+
+
+Cambio colore al passaggio del mouse di bottoni, icone, link, categorie e testo
+cliccabili;
+
+
+Apertura barra di ricerca al cliccare l’icona “lente”
+
+
+Cambio colore della sezione navbar per rappresentare la pagina su cui si sta
+navigando;
+
+
+Scorrimento del carosello “best seller”, “recensioni” e “consigliati” tramite frecce e
+menù di navigazione;
+
+
+Passando il puntatore del mouse sulla categoria “shop” si apre un menù a tendina con
+i modelli;
+
+
+Inserire il prodotto tra i preferiti e carrello direttamente dalla card di presentazione;
+
+
+Nei “filtri” è possibile inserire la fascia di prezzo desiderata spostandosi sulla linea,
+cliccare i materiali scelti e applicare o azzerare i filtri selezionati;
+
+
+Pop-up numerico sopra l’icona “carrello” per indicare il numero di prodotti presenti
+all’interno.
+INTERAZIONI
+64
+Obiettivo: Cercare una borsa pratica per il lavoro ed il tempo libero, quindi aggiungerla al carrello e procedere con il checkout.
+01 L’utente apre il sito e si trova nella “homepage”.
+02 Dopo aver dato una rapida occhiata ai “Best seller” e alle recensioni, decide di cliccare sulla sezione 
+
+“Shop” sulla navigation bar.
+USER FLOW - DESKTOP
+65
+03 Nella pagina “Shop” l’utente trova tutti i prodotti, suddivisi in categoria e modelli.
+04 Procede nel cliccare sul primo modello di borse, “MN”.
+USER FLOW - DESKTOP
+66
+05 Tramite i filtri seleziona il range di prezzo desiderato.
+06 Trova il modello “Borsetta in antracite, nera”.
+07 Clicca sull’immagine per averne più informazioni.
+USER FLOW - DESKTOP
+67
+08 Legge la descrizione del prodotto, le recensioni e sfoglia le immagini.
+09 Ne rimane colpita, quindi la aggiunge al carrello.
+10 Guardando i prodotti consigliati, decide di procedere con un secondo
+
+acquisto, supportando l’etica del brand.
+USER FLOW - DESKTOP
+68
+11 Clicca quindi sull’icona “carrello” per proseguire con il pagamento.
+12 Inserisce il codice sconto e procede con l’ordine.
+USER FLOW - DESKTOP
+69
+01 L’utente apre il sito e si trova nella “homepage”.
+02 Dopo aver dato una rapida occhiata ai valori e alle recensioni di Ecodream, decide di cliccare sulla sezione 
+
+“Shop” sull’hamburger menù.
+USER FLOW - MOBILE
+70
+03 Nella pagina “Shop” l’utente trova tutti i prodotti, suddivisi in categoria e modelli.
+04 Viene attirata dalla sezione “Outlet” a inizio pagina, decide di cliccare su “scopri di più”.
+05 Inserisce una borsa tra i preferiti, torna indietro e clicca sulla sezione “MN”.
+USER FLOW - MOBILE
+71
+06 Tramite i filtri seleziona il range di prezzo desiderato.
+07 Trova il modello “Borsetta in antracite, nera”.
+08 Clicca sull’immagine per averne più informazioni.
+USER FLOW - MOBILE
+72
+09 Legge la descrizione del prodotto, le recensioni e sfoglia le immagini.
+10 Ne rimane colpita, quindi la aggiunge al carrello.
+11 Guardando i prodotti consigliati, decide di procedere con un secondo
+
+acquisto, supportando l’etica del brand.
+USER FLOW - MOBILE
+12 Clicca quindi sull’icona “carrello” per proseguire con il pagamento.
+13 Sceglie il metodo di spedizione desiderato.
+14 Inserisce il codice sconto trovato sui social.
+15 Si accorge che lo ha digitato in modo errato, 
+
+ritenta con successo.
+16 Completa l’acquisto.
+USER FLOW - MOBILE
+74
+USER TEST
+Metodologia e Obiettivi, Target, Recruiting, Script, Task e Svolgimento, Prototipo, Test, Risultati del test, Conclusioni
+75
+Introduzione
+
+
+L’obiettivo di questo User Test è valutare l’esperienza utente del sito Ecodream, un brand di borse green che promuove moda sostenibile ed etica. 
+
+
+Durante la fase di Discovery, sono emerse alcune criticità legate alla navigazione e all'esperienza utente del sito, in particolare per quanto riguarda
+l'architettura dell'informazione e il processo di acquisto. 
+
+Alcuni dei problemi riscontrati includono:
+
+Navigazione poco intuitiva e difficoltà nel reperire informazioni sui prodotti;
+
+Assenza di un header fisso e breadcrumb per orientare gli utenti nel sito;
+
+Difficoltà nell'utilizzo di filtri e ricerca.
+
+
+Dopo l'analisi, è stato sviluppato un prototipo con miglioramenti mirati, tra cui:
+
+Riorganizzazione della homepage per migliorare l'accessibilità e la navigazione;
+
+Implementazione di filtri nella sezione Shop per facilitare la ricerca dei prodotti e modelli;
+
+Aggiunta di elementi di navigazione come breadcrumbs.
+
+
+Il test di usabilità si propone di verificare se queste modifiche abbiano migliorato l'esperienza d'uso del sito.
+.
+USER TEST
+76
+Metodologia
+
+
+Il test sarà moderato, permettendo un'interazione diretta con i
+partecipanti. 
+
+Gli utenti eseguiranno il test mentre un moderatore osserverà il
+loro comportamento e interverrà con domande per approfondire
+eventuali difficoltà incontrate. Sarà richiesta la registrazione dello
+schermo e l’audio, per raccogliere feedback spontanei e pensieri
+ad alta voce.
+
+
+Dispositivo di Test
+
+Il test verrà eseguito su smartphone, poiché i dati raccolti in fase di
+ricerca mostrano che il target preferisce effettuare acquisti online
+da mobile. Questa scelta permetterà di verificare se l’esperienza
+utente è ottimizzata per il dispositivo principale utilizzato dai
+potenziali clienti.
+
+
+Strumenti Utilizzati
+
+Per la conduzione del test verranno utilizzati:
+
+Figma: per la visualizzazione e l'interazione con il prototipo.
+
+Google Meet / Zoom: per moderare il test e registrare lo
+schermo e l’audio.
+.
+Obiettivi
+
+
+L’obiettivo principale del test è identificare eventuali problemi di
+usabilità e ottimizzare l’esperienza d’acquisto sul sito Ecodream. 
+
+Nello specifico, vogliamo:
+
+Valutare la navigazione e la chiarezza del sito: il percorso per
+trovare e selezionare un prodotto è intuitivo? Gli utenti riescono a
+orientarsi facilmente tra le categorie?
+
+Testare il processo di ricerca e filtri: gli utenti riescono a trovare
+rapidamente un prodotto adatto alle loro esigenze? I filtri sono
+efficaci e comprensibili?
+
+Analizzare l’esperienza di acquisto: il processo di aggiunta al
+carrello e checkout è fluido? Ci sono ostacoli o elementi che
+generano incertezza?
+
+Individuare punti critici e possibili miglioramenti: quali aspetti
+potrebbero essere ottimizzati per rendere l’esperienza più intuitiva
+e piacevole?
+
+
+I risultati di questo test ci aiuteranno a identificare eventuali
+problematiche e a proporre soluzioni per migliorare la user experience
+del sito, rendendolo più accessibile e funzionale per il pubblico target.
+USER TEST
+77
+Il Target
+
+
+Il test di usabilità verrà condotto su un campione di utenti in linea con il pubblico di riferimento del sito Ecodream, ovvero persone interessate alla moda
+sostenibile e ai prodotti eco-friendly.
+
+
+
+Caratteristiche del target:
+
+
+Età: 25-55 anni;
+
+Genere: Uomini e donne;
+
+Competenze base nell’uso dello smartphone;
+
+Abitudine all’acquisto online: Livello medio di esperienza con e-commerce e piattaforme di shopping
+
+Persone già attente alla moda sostenibile e interessate ai materiali eco-friendly
+
+
+Questo target è stato selezionato perché rappresenta il principale pubblico di riferimento di Ecodream. Attraverso il test, vogliamo capire se il sito
+risponde efficacemente alle loro esigenze, se la comunicazione del brand è chiara e se il processo di acquisto risulta semplice e intuitivo.
+
+I feedback raccolti saranno utili per affinare l’esperienza utente, migliorando la navigabilità, la comprensione dei prodotti e il flusso di acquisto.
+USER TEST
+78
+Metodi di Recruiting
+
+
+Per trovare i partecipanti ideali verranno utilizzati i seguenti strumenti:
+
+Social Media: Annunci e post su Instagram e Facebook, invitando volontari a partecipare al test.
+
+Community e Gruppi Online: Ricerca di partecipanti all’interno di gruppi dedicati alla moda sostenibile o al consumo consapevole.
+
+Passaparola: Coinvolgimento di conoscenti e contatti che rientrano nel profilo target.
+
+
+Verrà effettuata una selezione dei potenziali tester basata sulle risposte al questionario di screening.
+
+
+Criteri di selezione:
+
+Appartenenza al target (età, abitudini di acquisto online, interesse per la sostenibilità).
+
+Disponibilità a partecipare al test moderato con registrazione dello schermo e audio.
+Post per recruiting form domande preliminari email invito partecipazione
+USER TEST
+79
+Comunicazione ai selezionati:
+
+ I candidati idonei riceveranno un’email con:
+
+Presentazione del progetto (chi sono, cosa sto testando, perché lo sto testando).
+
+Modalità di partecipazione (test moderato con registrazione dello schermo e domande di follow-up).
+
+Benefici della partecipazione (possibilità di influenzare il design del sito, buono sconto su un acquisto futuro).
+
+Data e ora disponibili per prenotare la sessione di test.
+
+
+
+Organizzazione del Test:
+
+
+Creazione di un calendario con slot prenotabili per le sessioni.
+
+Invio del link alla videochiamata e istruzioni dettagliate prima del test.
+
+Conferma della partecipazione prima dell’inizio della sessione.
+
+
+
+Questo approccio permetterà di raccogliere insight preziosi da utenti reali, migliorando l’esperienza di navigazione e acquisto sul sito Ecodream.
+USER TEST
+80
+Introduzione del test
+
+Mi presento all’utente, spiegando chi sono, di cosa mi occupo ed il motivo del test che stiamo per condurre, ovvero migliorare l’esperienza utente del
+sito Ecodream.
+
+
+L’obiettivo è raccogliere feedback autentici per ottimizzare la navigazione, la ricerca dei prodotti e il processo di acquisto, rendendolo il più intuitivo
+possibile per gli utenti
+
+Lo ringrazio per aver accettato di partecipare e per il suo tempo, sottolineando che il test non è pensato per valutare lui o le sue capacità, ma per
+valutare esclusivamente il design.
+
+ 
+
+Lo informo che il test sarà moderato, quindi sarò presente durante la sessione per osservare il suo comportamento e fare qualche domanda di
+approfondimento in base all’esperienza.
+
+
+Il test verrà eseguito sul suo smartphone, verrà registrato il suo schermo e l’audio per raccogliere i pensieri, invitandolo a pensare a voce alta mentre
+viene esplorato il sito. 
+
+
+Questo aiuterà a comprendere meglio il processo decisionale e le eventuali difficoltà che potrebbero riscontrare.
+USER TEST
+81
+Fase 2: Test di Navigazione
+
+
+Task 1: Esplorazione dello shop
+
+Task 2: Scelta di un prodotto
+
+Task 3: Aggiunta al carrello 
+
+Task 4: Verifica delle opzioni di spedizione
+
+Task 5: Ricerca informazioni sul reso 
+
+Dopo ogni task, chiederò di valutare la difficoltà dell’operazione su una scala da 1 a 5 e di spiegare eventuali problemi riscontrati.
+
+
+
+Fase 3: Feedback Finale
+
+
+
+
+
+Invio del Test 
+
+Una volta terminata la sessione, il test sarà completo e non sarà necessario inviarmi materiale aggiuntivo, riceverà una mail con il buono sconto e
+ringraziamenti.
+feedback finale
+USER TEST
+82
+Task e Svolgimento
+
+
+Esplorazione dello shop: Stai cercando una borsa sostenibile per un regalo. Arrivi sul sito di Ecodream tramite Google e vuoi esplorare i prodotti
+disponibili. Cosa fai?
+
+Scelta di un prodotto: Noti una borsa MN in pelle nera tra gli articoli. Vuoi saperne di più sulle caratteristiche e le recensioni. Come procedi?
+
+Aggiunta al carrello: Dopo aver letto la descrizione e le recensioni, decidi di acquistare la borsa. Aggiungila al carrello.
+
+Verifica delle opzioni di spedizione: Controlla i metodi di spedizione disponibili e i relativi costi prima di procedere al checkout.
+
+Ricerca informazioni sul reso: Prima di completare l’acquisto, hai dei dubbi sulle modalità di reso. Dove cerchi queste informazioni?
+
+Dopo il test, gli utenti compileranno un breve questionario per raccogliere il loro feedback generale.
+vai al prototipo
+USER TEST
+83
+Dati emersi dalle domande preliminari
+Qual è la tua fascia d’età?
+ Quali dispositivi utilizzi più spesso
+per fare acquisti online?
+Quanto spesso acquisti online?  
+71,4% 25 - 34
+14,3% 35 - 44
+14,3% 55+
+28,6% 1 a settimana
+57,1% più volte al mese
+14,3% raramente
+57,1% Smartphone
+42,9% Pc/laptop
+Hai mai acquistato borse o accessori
+online?
+Hai mai acquistato borse o accessori
+online?
+Gli utenti selezionati sono quasi tutti
+abituati ad acquistare online,
+hanno quindi dimestichezza con gli
+e-commerce e sono interessati ed
+un mercato eco-sostenibile.
+57,1% Si
+42,9% No, mai
+57,1% Si, qualche volta
+42,9% No, ma mi
+interessa
+USER TEST
+84
+Il test - Partecipante 1
+
+
+Task 1: entrare nella sezione “shop”
+
+Tra le diverse opzioni, Dragan è stato subito attirato dalla call-to-action “vai allo shop”;
+
+task completata quasi immediatamente.
+
+
+Task 2: Scelta di un prodotto
+
+Dopo aver dato un’occhiata alle categorie di modelli disponibili nel prototipo, il partecipante ne ha scelto uno, credendo però che l’immagine della
+“borsetta verde” rappresentasse già la scelta del prodotto e non la categoria “MN”;
+
+Decide di proseguire con la “borsa in pelle nera, antracite”.
+
+
+Task 3: Aggiunta al carrello
+
+L’aggiunta al carrello avviene facilmente e velocemente.
+
+
+Task 4: Verifica delle opzioni di spedizione
+
+L’intervistato si aspetta di trovarle nel “carrello”, quindi entra nel carrello grazie al pop-up apparso dopo aver aggiunto al borsa;
+
+È stato l’unico dei partecipanti a selezionare la spedizione desiderata;
+
+Nota il cambiamento di prezzo selezionando l’opzione “A domicilio”, rispetto al “Ritiro in negozio”;
+
+Non nota il “maggiori informazioni” sotto le opzioni di spedizione.
+
+
+Task 5: Ricerca informazioni sul reso
+
+Clicca su “maggiori informazioni”, aspettandosi di trovare le informazioni sul reso, ma ci sono solo le info di spedizione;
+
+Cerca le informazioni richieste nel footer, alla ricerca delle “FAQ”, ma nota la dicitura “spedizioni e reso”.
+USER TEST
+85
+Domande finali
+
+
+Come ti sei trovato/a nello svolgimento dei task?
+
+Molto bene, è un sito intuitivo e chiaro, quindi è stato facile.
+
+
+Hai notato qualcosa di confuso o poco chiaro durante il test?
+
+No.
+
+  
+
+Come valuteresti l’esperienza complessiva del sito? (Scala da 1 a 5 – 1 = molto negativa, 5 = molto positiva)
+
+Direi 5, nel suo è molto veloce ed intuitivo.
+
+
+Come hai trovato la navigazione del sito? (Scala da 1 a 5 – 1 = per nulla intuitiva, 5 = molto intuitiva)
+
+Uguale (5), molto veloce, semplice, leggera.
+
+
+Acquisteresti prodotti da questo sito? Perché? 
+
+Beh, sì, se fossi interessato a delle borse le acquisterei, è semplice e veloce.
+
+
+Consiglieresti il sito Ecodream a qualcuno che cerca borse sostenibili?  
+
+Sì, perché no.
+
+
+Hai suggerimenti o commenti aggiuntivi per migliorare il sito? 
+
+Un tasto “acquista subito”, anche se non necessario perché una volta aggiunto un prodotto al carrello esce il pop-up “vai al carrello”.
+USER TEST
+86
+Il test - Partecipante 2
+
+
+Task 1: entrare nella sezione “shop”
+
+Maria, come Dragan, clicca subito sulla call-to-action “Vai allo shop”.
+
+
+Task 2: Scelta di un prodotto
+
+Dopo aver dato un’occhiata ai diversi modelli presenti nel prototipo, anche Maria si ferma dopo la selezione del modello e non sceglie un prodotto
+fino alla prossima task.
+
+
+Task 3: Aggiunta al carrello
+
+Anche in questo caso l’aggiunta al carrello del prodotto avviene senza problemi e molto velocemente.
+
+
+Task 4: Verifica delle opzioni di spedizione
+
+L’intervistata nota subito una parte delle info di spedizione riassuntiva nella scheda prodotto;
+
+Maria non approfondisce le maggiori info di spedizione.
+
+
+Task 5: Ricerca informazioni sul reso
+
+Clicca su “dettagli” nella scheda prodotto, ma i dettagli si riferiscono solamente ai dettagli del prodotto;
+
+Scorre nel footer e nota subito “spedizione e resi”.
+USER TEST
+87
+Domande finali
+
+
+Come ti sei trovato/a nello svolgimento dei task?
+
+Mi sono trovata molto bene, nonostante non sia esperta in acquisti online ed informatica.
+
+
+Hai notato qualcosa di confuso o poco chiaro durante il test?
+
+No, è tutto molto chiaro, considerando che non ho mai acquistato tramite cellulare, il meccanismo è abbastanza semplice.
+
+  
+
+Come valuteresti l’esperienza complessiva del sito? (Scala da 1 a 5 – 1 = molto negativa, 5 = molto positiva)
+
+5, molto positivo.
+
+
+Come hai trovato la navigazione del sito? (Scala da 1 a 5 – 1 = per nulla intuitiva, 5 = molto intuitiva)
+
+Considerando che il mio cellulare non è degli ultimi modelli, è andata bene, 5.
+
+
+Acquisteresti prodotti da questo sito? Perché? 
+
+Sì, l’importante è che siano eco sostenibili, con materiale riciclato ed ecopelle.
+
+
+Consiglieresti il sito Ecodream a qualcuno che cerca borse sostenibili?  
+
+Sì, certo, lo consiglierei.
+
+
+Hai suggerimenti o commenti aggiuntivi per migliorare il sito? 
+
+Uhm, al momento credo di no.
+USER TEST
+88
+Il test - Partecipante 3
+
+
+Task 1: entrare nella sezione “shop”
+
+Anche Michela clicca immediatamente su “vai allo shop”.
+
+
+Task 2: Scelta di un prodotto
+
+Dopo aver dato un’occhiata ai diversi modelli presenti nel prototipo, anche Michela si ferma dopo la selezione del modello e non sceglie un prodotto
+fino alla prossima task, come successo per Maria e Dragan.
+
+
+Task 3: Aggiunta al carrello
+
+Dopo aver scelto il prodotto Michela clicca su “aggiungi al carrello”;
+
+Ha un momento di incertezza appena appare il pop-up.
+
+
+Task 4: Verifica delle opzioni di spedizione
+
+Il partecipante entra nel carrello;
+
+Dopo una breve occhiata alla pagina clicca su “maggiori informazioni” sotto le due opzioni di spedizione;
+
+Dichiara di trovarlo intuitivo e semplice, pensa che le informazioni siano esaustive e chiare.
+
+
+Task 5: Ricerca informazioni sul reso
+
+Scorre verso il footer, ma clicca su “completa l’acquisto”, aspettandosi di trovare le informazioni sul reso nella schermata d’acquisto;
+
+Afferma di non sapere dove cercarle;
+
+Dopo poco scorrendo di nuovo verso il footer trova “spedizione e reso”.
+
+Non essendo “spedizione e reso” cliccabile, questo ha creato confusione nella task.
+USER TEST
+89
+Domande finali
+
+
+Come ti sei trovato/a nello svolgimento dei task?
+
+Molto semplice, intuitivo e falice.
+
+
+Hai notato qualcosa di confuso o poco chiaro durante il test?
+
+Assolutamente no.
+
+  
+
+Come valuteresti l’esperienza complessiva del sito? (Scala da 1 a 5 – 1 = molto negativa, 5 = molto positiva)
+
+4, considerando che il prototipo non è completo al 100%.
+
+
+Come hai trovato la navigazione del sito? (Scala da 1 a 5 – 1 = per nulla intuitiva, 5 = molto intuitiva)
+
+Cinque.
+
+
+Acquisteresti prodotti da questo sito? Perché? 
+
+Credo di si, le immagini sono colorate e ti invogliano all’acquisto.
+
+
+Consiglieresti il sito Ecodream a qualcuno che cerca borse sostenibili?  
+
+Sì, assolutamente.
+
+
+Hai suggerimenti o commenti aggiuntivi per migliorare il sito? 
+
+In realtà no, per me va benissimo così.
+USER TEST
+90
+Il test - Partecipante 4
+
+
+Task 1: entrare nella sezione “shop”
+
+Luca si aspetta di trovare il collegamento allo shop sul tasto “vai allo shop” e clicca.
+
+
+Task 2: Scelta di un prodotto
+
+Anche Luca visita un po’ il sito, vorrebbe acquistare una cintura;
+
+Diversamente dai precedenti partecipanti, non si ferma dopo aver cliccato sulla categoria dei modelli, ma continua con la scelta del prodotto;
+
+Afferma che il prototipo gli sembra molto realistico.
+
+
+Task 3: Aggiunta al carrello
+
+Dopo aver scelto un prodotto, lo aggiunge al carrello cliccando su “aggiungi al carrello”.
+
+
+Task 4: Verifica delle opzioni di spedizione
+
+Il partecipante entra nel carrello;
+
+Guarda il riepilogo dell’acquisto;
+
+Si aspetta di trovare le info richieste nella sezione “maggiori informazioni”.
+
+
+Task 5: Ricerca informazioni sul reso
+
+Si domanda se può trovarle anche prima del pagamento o solo dopo aver acquistato;
+
+Dopo qualche secondo continuando a cercare esprime difficoltà nel completare la task;
+
+Immediatamente dopo scorrendo il footer completamente trova la sezione “spedizione e reso”;
+
+Si aspettava di trovare informazioni sul reso in una pagina dopo aver acquistato il prodotto.
+USER TEST
+91
+Domande finali
+
+
+Come ti sei trovato/a nello svolgimento dei task?
+
+A parte l’ultima task, molto bene, è un sito d’acquisti molto lineare e visivamente molto bello.
+
+
+Hai notato qualcosa di confuso o poco chiaro durante il test?
+
+L’ultima task, sul reso.
+
+  
+
+Come valuteresti l’esperienza complessiva del sito? (Scala da 1 a 5 – 1 = molto negativa, 5 = molto positiva)
+
+Non essendo riuscito a completare l’ultima task, 4.
+
+
+Come hai trovato la navigazione del sito? (Scala da 1 a 5 – 1 = per nulla intuitiva, 5 = molto intuitiva)
+
+La navigazione era ottima, quindi 5.
+
+
+Acquisteresti prodotti da questo sito? Perché? 
+
+Lo acquisterei perchè è un sito in cui sono sicuro che i prodotti siano etici.
+
+
+Consiglieresti il sito Ecodream a qualcuno che cerca borse sostenibili?  
+
+Sì.
+
+
+Hai suggerimenti o commenti aggiuntivi per migliorare il sito? 
+
+No, nulla di specifico.
+USER TEST
+92
+Il test - Partecipante 5
+
+
+Task 1: entrare nella sezione “shop”
+
+Giulia clicca subito su “vai allo shop”.
+
+
+Task 2: Scelta di un prodotto
+
+Anche Giulia, come tutti gli altri partecipanti, visita un po’ la scheda dei modelli;
+
+Cliccando su un modello, ne visualizza i prodotti.
+
+
+Task 3: Aggiunta al carrello
+
+Dopo aver cliccato su un prodotto, lo aggiunge al carrello cliccando su “aggiungi al carrello”.
+
+
+Task 4: Verifica delle opzioni di spedizione
+
+Come Maria, nota subito le informazioni riassuntive di spedizione, presenti nella scheda prodotto.
+
+
+Task 5: Ricerca informazioni sul reso
+
+Nota sempre nella scheda prodotto le informazioni riassuntive sul reso;
+
+Si aspetta di trovare ulteriori informazioni nel dettagli, perché nei siti che utilizza solitamente per fare shopping online trova le informazioni
+facilmente nella scheda prodotto.
+USER TEST
+93
+Domande finali
+
+
+Come ti sei trovato/a nello svolgimento delle task?
+
+Bene.
+
+
+Hai notato qualcosa di confuso o poco chiaro durante il test?
+
+Nell’intervista no, il prototipo non essendo completo le ha creato confusione nella ricerca del prodotto.
+
+  
+
+Come valuteresti l’esperienza complessiva del sito? (Scala da 1 a 5 – 1 = molto negativa, 5 = molto positiva)
+
+Direi 5, perchè mi sembra un sito normale.
+
+
+Come hai trovato la navigazione del sito? (Scala da 1 a 5 – 1 = per nulla intuitiva, 5 = molto intuitiva)
+
+Fluida, sempre 5.
+
+
+Acquisteresti prodotti da questo sito? Perché? 
+
+Non lo so, dovrei dare un’occhiata più approfondita.
+
+
+Consiglieresti il sito Ecodream a qualcuno che cerca borse sostenibili?  
+
+Hai suggerimenti o commenti aggiuntivi per migliorare il sito? 
+
+No.
+USER TEST
+94
+Sulla base del test e dei feedback ricevuti dai 5 partecipanti, possiamo notare che:
+Task 1 Task 2 Task 3
+5 partecipanti hanno completato la
+task, velocemente.
+3 partecipanti non hanno
+proseguito la ricerca del prodotto
+2 partecipanti hanno
+completato la task
+3 partecipanti hanno
+completato la task
+Task 4 Task 5
+2 partecipanti hanno affermato di trovarsi in difficoltà
+1 partecipante si aspettava di trovare le info di reso in
+un pop-up dopo aver completato l’acquisto
+1 partecipante si aspettava di trovare le info richieste
+nella scheda prodotto 3 partecipanti si aspettavo
+di trovare le info nel carrello
+2 partecipanti hanno trovato
+le info nella scheda prodotto
+4 partecipanti hanno
+completato la task, nel footer
+1 partecipante non ha
+controllato il footer USER TEST
+95
+Nel complesso il prototipo è facile ed intuitivo nella navigazione, completare l’acquisto è facile e veloce ed i partecipanti hanno espresso
+positività per quanto riguarda l’eticità del brand e la sua missione.
+
+
+Tuttavia sono emerse diverse criticità e possibilità di miglioramento:
+
+
+La suddivisione dei modelli e la loro immagine crea confusione e poca distinzione nella rappresentazione degli effettivi prodotti, modificare
+la scheda dei modelli può risolvere la confusione e rendere più chiara la differenza tra le categorie di modelli ed i prodotti.
+
+
+Sulle informazioni di spedizione i partecipanti non hanno avuto particolari difficoltà, ma aggiungere la possibilità di visualizzare le
+informazioni più dettagliate già dalla scheda prodotto può creare più fiducia e trasparenza nell’utente, non dovendo per forza aggiungere un
+prodotto al carrello per poterle visualizzare.
+
+
+La ricerca del reso è stata la task più complicata per tutti i partecipanti, come per le informazioni di spedizione, per risolvere queste
+difficoltà, aggiungere le informazioni di reso insieme a quelle di spedizione, nella scheda prodotto e nel carrello, oltre che al footer, può
+semplificare l’esperienza utente e creare soddisfazione nell’acquisto.
+Clicca sul link per vedere cosa è stato migliorato
+nuovo prototipo
+CONCLUSIONE
+96
+GRAZIE
+Nathalia Lenci - UX/UI Designer
+
+
+Prototipo e presentazione: figma
+
+email: lencinathalia@gmail.com

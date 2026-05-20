@@ -5,92 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecodream Case Study - Nathalia Lenci</title>
     <link rel="stylesheet" href="style-case-study.css">
-    </head>
+</head>
 <body>
 
     <nav class="case-study-nav">
-        <a href="uxui.html">← Torna ai progetti</a>
+        <div class="container">
+            <a href="uxui.html">← Torna ai progetti</a>
+        </div>
     </nav>
 
-    <header class="hero-section">
-        <div class="container">
-            <span class="category">UX/UI Case Study (Progetto Accademico)</span>
-            <h1>Ecodream</h1>
-            <p class="tagline">Riprogettare l'esperienza e-commerce per una moda etica, sostenibile e artigianale.</p>
-            <img src="immagini/MockupEcodream.png" alt="Ecodream Mockup" class="hero-image">
-        </div>
-    </header>
-
-    <section class="overview">
-        <div class="container grid">
-            <div class="overview-text">
-                <h2>Il Progetto</h2>
-                <p>Ecodream è un brand che trasforma materiali di recupero in borse e zaini fatti a mano in Italia. L'obiettivo della riprogettazione è stato colmare il divario tra i valori etici del brand e un'esperienza utente digitale che risultava frammentata e poco intuitiva.</p>
-            </div>
-            <div class="overview-details">
-                <div><strong>Ruolo</strong><p>UX/UI Designer</p></div>
-                <div><strong>Durata</strong><p>Progetto Accademico</p></div>
-                <div><strong>Strumenti</strong><p>Figma, Miro</p></div>
-            </div>
-        </div>
-    </section>
-
-    <section class="problem">
-        <div class="container">
-            <h2>Il Problema (Analisi As-Is)</h2>
-            <p>Dall'analisi del sito originale sono emerse criticità strutturali che ostacolavano il percorso d'acquisto:</p>
-            <ul>
-                <li><strong>Navigazione chiusa:</strong> Assenza di breadcrumb e tasti di ritorno diretti.</li>
-                <li><strong>Shop confusionario:</strong> Difficoltà nel distinguere tra categorie e modelli, con filtri di ricerca assenti.</li>
-                <li><strong>Mancanza di fiducia:</strong> Informazioni su spedizioni e resi nascoste o difficili da trovare.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="research gray-bg">
-        <div class="container">
-            <h2>User Research & Insight</h2>
-            <p>Attraverso interviste e creazione di Personas (come Marta, l'insegnante attenta all'ambiente), ho identificato le necessità principali:</p>
-            <div class="insight-grid">
-                <div class="insight-card">
-                    <h3>Trasparenza</h3>
-                    <p>Gli utenti vogliono conoscere i dettagli della produzione e dei materiali immediatamente.</p>
-                </div>
-                <div class="insight-card">
-                    <h3>Semplicità</h3>
-                    <p>Un sistema di filtri efficace per colore e modello riduce il carico cognitivo durante lo shopping.</p>
+    <main>
+        <header class="hero-section">
+            <div class="container">
+                <span class="category">UX/UI Case Study (Progetto Accademico)</span>
+                <h1>Ecodream</h1>
+                <p class="tagline">Transforming a fragmented website into a mobile-first, fully accessible digital ecosystem for eco-conscious shoppers.</p>
+                
+                <div class="hero-image-wrapper">
+                    <img src="immagini/MockupEcodream.png" alt="Ecodream Mockup" class="hero-image">
                 </div>
             </div>
-        </div>
-    </section>
+        </header>
 
-    <section class="solution">
-        <div class="container">
-            <h2>La Soluzione</h2>
-            <p>Ho riorganizzato l'Architettura dell'Informazione unificando le sezioni "Modelli" e "Shop" in un unico flusso coerente.</p>
-            <img src="immagini/ecodream-flow.png" alt="User Flow Ecodream" class="full-width-img">
-            
-            <div class="design-decisions">
-                <h3>Design Atomico & UI</h3>
-                <p>Ho creato un UI Kit basato su toni naturali per riflettere l'eticità del brand, utilizzando una griglia layout rigorosa per garantire l'accessibilità su ogni dispositivo.</p>
+        <section class="overview">
+            <div class="container grid-3-col">
+                <div class="overview-text">
+                    <h2>Il Progetto</h2>
+                    <p>Ecodream è un brand che trasforma materiali di recupero in borse e zaini fatti a mano in Italia. L'obiettivo della riprogettazione è stato colmare il divario tra i valori etici del brand e un'esperienza utente digitale che risultava frammentata e poco intuitiva.</p>
+                </div>
+                <div class="overview-details">
+                    <div><strong>Ruolo</strong><p>UX/UI Designer</p></div>
+                    <div><strong>Durata</strong><p>Progetto Accademico</p></div>
+                    <div><strong>Strumenti</strong><p>Figma, Miro</p></div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="testing">
-        <div class="container">
-            <h2>Validazione e Iterazione</h2>
-            <p>Il test di usabilità ha confermato che il nuovo design è intuitivo, ma ha evidenziato un punto chiave: gli utenti cercavano le informazioni di <strong>reso e spedizione</strong> già nella scheda prodotto.</p>
-            <div class="iteration-box">
-                <strong>💡 Cosa è cambiato:</strong> Ho aggiunto moduli informativi direttamente sotto il pulsante "Aggiungi al carrello" per aumentare la trasparenza e la velocità di conversione.
+        <section class="problem-solution-section">
+            <div class="container grid-2-col">
+                <div class="card card-problem">
+                    <h2>Il Problema (Analisi As-Is)</h2>
+                    <p>Dall'analisi del sito originale sono emerse criticità strutturali che ostacolavano il percorso d'acquisto:</p>
+                    <ul>
+                        <li><strong>Navigazione chiusa:</strong> Assenza di breadcrumb e tasti di ritorno diretti.</li>
+                        <li><strong>Shop confusionario:</strong> Difficoltà nel distinguere tra categorie e modelli, con filtri di ricerca assenti.</li>
+                        <li><strong>Mancanza di fiducia:</strong> Informazioni su spedizioni e resi nascoste o difficili da trovare.</li>
+                    </ul>
+                </div>
+                <div class="card card-solution">
+                    <h2>La Soluzione</h2>
+                    <p>Ho riorganizzato l'Architettura dell'Informazione unificando le sezioni "Modelli" e "Shop" in un unico flusso coerente. Il nuovo design introduce un sistema di filtri efficace, ottimizza il caricamento cognitivo e garantisce la trasparenza richiesta dall'utente fin dalle prime fasi di navigazione.</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section class="research gray-bg">
+            <div class="container">
+                <h2>User Research & Insight</h2>
+                <p class="section-intro">Attraverso interviste e creazione di Personas (come Marta, l'insegnante attenta all'ambiente), ho identificato le necessità principali del target:</p>
+                
+                <div class="insight-grid">
+                    <div class="insight-card">
+                        <h3>Trasparenza</h3>
+                        <p>Gli utenti vogliono conoscere i dettagli della produzione, dei materiali e delle politiche di reso immediatamente.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h3>Semplicità</h3>
+                        <p>Un sistema di filtri efficace per colore e modello riduce drasticamente il carico cognitivo durante lo shopping.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="solution-flow">
+            <div class="container">
+                <h2>Architettura e Flussi</h2>
+                <img src="immagini/ecodream-flow.png" alt="User Flow Ecodream" class="full-width-img">
+                
+                <div class="design-decisions">
+                    <h3>Design Atomico & UI Kit</h3>
+                    <p>Ho creato un UI Kit basato su toni naturali per riflettere l'eticità del brand, utilizzando una griglia layout rigorosa per garantire l'accessibilità e la responsività su ogni tipo di dispositivo mobile e desktop.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testing">
+            <div class="container">
+                <h2>Validazione e Iterazione</h2>
+                <p>Il test di usabilità ha confermato che il nuovo design è intuitivo, ma ha evidenziato un punto chiave: gli utenti cercavano le informazioni di <strong>reso e spedizione</strong> già nella scheda prodotto.</p>
+                
+                <div class="iteration-box">
+                    <strong>💡 Cosa è cambiato nei test:</strong> Ho aggiunto moduli informativi chiari direttamente sotto il pulsante "Aggiungi al carrello" per aumentare la trasparenza e la velocità di conversione, abbattendo le esitazioni d'acquisto.
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer class="case-study-footer">
         <div class="container">
             <h2>Risultato Finale</h2>
-            <p>Il progetto Ecodream dimostra come un approccio user-centered possa trasformare un catalogo complesso in un'esperienza d'acquisto fluida e valoriale.</p>
+            <p>Il progetto Ecodream dimostra come un approccio user-centered possa trasformare un catalogo complesso in un'esperienza d'acquisto fluida, valoriale e ad alta conversione.</p>
             <a href="https://www.figma.com/..." target="_blank" class="btn">Vedi Prototipo Interattivo</a>
         </div>
     </footer>
