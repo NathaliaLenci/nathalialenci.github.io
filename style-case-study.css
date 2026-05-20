@@ -13,6 +13,16 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+/* linea */
+.section-divider {
+  border: none;               /* Rimuove lo stile 3D di default del browser */
+  border-top: 1px solid #dcdcdc; /* Crea una linea pulita di 1px. Puoi cambiare il codice colore (es. #e0e0e0 o #dcdcdc) */
+  margin-top: 30px;           /* Spazio sopra la linea */
+  margin-bottom: 30px;        /* Spazio sotto la linea, prima del titolo "Process" */
+  max-width: 1040px;                /* Fa in modo che la linea prenda tutta la larghezza del contenitore */
+}
+
+
 /* CONTAINER GENERALE */
 .container {
     width: 100%;
@@ -24,12 +34,8 @@ body {
 
 /* SEZIONI CON PADDING AMPI (Effetto premium/respiro) */
 section, header {
-    padding: 90px 0;
+    padding: 8px 0;
     box-sizing: border-box;
-}
-
-.gray-bg {
-    background-color: #f9f9f9; /* Stacco grigio chiaro pulito */
 }
 
 /* NAVIGAZIONE */
@@ -44,7 +50,7 @@ section, header {
 
 /* HERO SECTION (Immagine sotto la tagline) */
 .hero-section {
-    padding-top: 40px;
+    padding-top: 16px;
 }
 .category {
     font-size: 0.85rem;
@@ -63,9 +69,10 @@ section, header {
     letter-spacing: -0.5px;
 }
 .tagline {
-    font-size: 1.35rem;
+    font-size: 1.40rem;
+    text-transform: uppercase;
     color: #444444;
-    max-width: 750px;
+    max-width: 1040px;
     margin-bottom: 48px;
 }
 .hero-image-wrapper {
@@ -82,33 +89,55 @@ section, header {
 h2 {
     font-size: 2.1rem;
     font-weight: 800;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     letter-spacing: -0.3px;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 12px;
 }
 
 /* 1. OVERVIEW: GRIGLIA A 3 COLONNE (2 fr per il testo, 1 fr diviso per i dettagli) */
 .overview .grid-3-col {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 60px;
+    gap: 24px;
 }
 .overview-details {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    align-content: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Distribuisce i blocchi da sinistra a destra */
+  align-items: flex-start;         /* Allinea i blocchi in alto, risolvendo l'effetto "storto" */
+  width: 100%;                     /* Costringe il contenitore a prendere tutta la larghezza */
+  gap: 30px;                       /* Spazio minimo garantito tra le colonne */
+  flex-wrap: wrap;                 /* Responsive: va a capo se lo schermo è troppo stretto */
 }
+
+.overview-details > div {
+  flex: 1;                         /* Forza ogni colonna ad espandersi equamente per occupare tutto lo spazio */
+  min-width: 180px;                /* Impedisce che il testo si stringa troppo */
+}
+
+/* Opzionale: per dare un tocco ancora più preciso alla tipografia */
 .overview-details strong {
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #666666;
-    display: block;
-    margin-bottom: 4px;
+  display: block;
+  text-transform: uppercase;       
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;          
+  margin-bottom: 8px;              /* Spazio fisso tra il titolo e il testo sotto */
+  color: #666;                     
 }
+
 .overview-details p {
-    margin: 0;
-    font-weight: 600;
+  margin: 0;                       /* Rimuove i margini di default del tag <p> che potrebbero sfalsare le altezze */
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
 /* 2. PROBLEM VS SOLUTION: 2 COLONNE AFFIANCATE */
@@ -119,7 +148,7 @@ h2 {
 }
 .card {
     background: #ffffff;
-    padding: 32px;
+    padding: 24px;
     border-radius: 12px;
 }
 .card-problem ul {
@@ -143,7 +172,7 @@ h2 {
 }
 .insight-card {
     background-color: #ffffff;
-    padding: 40px;
+    padding: 24px;
     border-radius: 16px;
     border: 1px solid #eeeeee;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.01);
@@ -206,6 +235,6 @@ h2 {
         gap: 40px;
     }
     section, header {
-        padding: 60px 0;
+        padding: 20px 0;
     }
 }

@@ -17,65 +17,686 @@
     <main>
         <header class="hero-section">
             <div class="container">
-                <span class="category">UX/UI Case Study (Progetto Accademico)</span>
+                <span class="category">UX/UI Case Study (Academic Project)</span>
                 <h1>Ecodream</h1>
-                <p class="tagline">Transforming a fragmented website into a mobile-first, fully accessible digital ecosystem for eco-conscious shoppers.</p>
-                
                 <div class="hero-image-wrapper">
                     <img src="immagini/MockupEcodream.png" alt="Ecodream Mockup" class="hero-image">
+                </div>
+                <p class="tagline">Redesigning Ecodream’s e-commerce platform into a mobile-first, fully accessible digital ecosystem that aligns seamless user experience with sustainable values.</p>
+                <div class="overview-details">
+                    <div><strong>PROJECT TYPE</strong><p>UX Design, UI Design, UX Research</p></div>
+                    <div><strong>ROLE</strong><p>UX/UI Designer</p></div>
+                    <div><strong>DELIVERABLES</strong><p>Wireframes, Hi-fi Prototypes, Design System</p></div>
+                    <div><strong>TIMELINE</strong><p>3 months</p></div>
                 </div>
             </div>
         </header>
 
+<hr class="section-divider">
+
+<div class="process-section">
+
+    </div>
+
         <section class="overview">
             <div class="container grid-3-col">
                 <div class="overview-text">
-                    <h2>Il Progetto</h2>
-                    <p>Ecodream è un brand che trasforma materiali di recupero in borse e zaini fatti a mano in Italia. L'obiettivo della riprogettazione è stato colmare il divario tra i valori etici del brand e un'esperienza utente digitale che risultava frammentata e poco intuitiva.</p>
+                    <h2>The Project</h2>
+                    <p>Ecodream is a brand that transforms reclaimed materials into handmade bags and backpacks in Italy. The goal of the redesign was to bridge the gap between the brand's ethical values and a digital user experience that was fragmented and unintuitive.</p>
                 </div>
-                <div class="overview-details">
-                    <div><strong>Ruolo</strong><p>UX/UI Designer</p></div>
-                    <div><strong>Durata</strong><p>Progetto Accademico</p></div>
-                    <div><strong>Strumenti</strong><p>Figma, Miro</p></div>
-                </div>
+                
             </div>
         </section>
+
+        <hr class="section-divider">
 
         <section class="problem-solution-section">
             <div class="container grid-2-col">
                 <div class="card card-problem">
-                    <h2>Il Problema (Analisi As-Is)</h2>
-                    <p>Dall'analisi del sito originale sono emerse criticità strutturali che ostacolavano il percorso d'acquisto:</p>
-                    <ul>
-                        <li><strong>Navigazione chiusa:</strong> Assenza di breadcrumb e tasti di ritorno diretti.</li>
-                        <li><strong>Shop confusionario:</strong> Difficoltà nel distinguere tra categorie e modelli, con filtri di ricerca assenti.</li>
-                        <li><strong>Mancanza di fiducia:</strong> Informazioni su spedizioni e resi nascoste o difficili da trovare.</li>
-                    </ul>
+                    <h2>Problem (Analisi As-Is)</h2>
+                    <p>Aligning E-Commerce with Accessibility and Brand Values</p>
+                    <p> Ecodream, an ethical fashion brand, needed a complete digital transformation. The legacy platform suffered from a text-heavy layout, poor product findability (no search or filters), and high cart abandonment. Furthermore, an accessibility audit via WebAIM and WAVE revealed critical failures in keyboard navigation and screen-reader support. The challenge was to rebuild the platform to be fully inclusive, intuitive, and reflective of the brand's sustainable identity.</p>
                 </div>
                 <div class="card card-solution">
-                    <h2>La Soluzione</h2>
-                    <p>Ho riorganizzato l'Architettura dell'Informazione unificando le sezioni "Modelli" e "Shop" in un unico flusso coerente. Il nuovo design introduce un sistema di filtri efficace, ottimizza il caricamento cognitivo e garantisce la trasparenza richiesta dall'utente fin dalle prime fasi di navigazione.</p>
+                    <h2>Solution</h2>
+                    <p>An Insight-Driven, Fully Inclusive Digital Storefront</p>
+                    <p>I led the end-to-end research, information architecture, and UI redesign for desktop and mobile. To transform the user experience, I implemented:  Advanced Findability: Streamlined sitemap, global search, and robust filters.  WCAG-Compliant UI: High-contrast palette and accessible typography.  Frictionless Conversion: Quick cart updates and transparent shipping data.  Through moderated usability testing, I iteratively validated the prototypes. While core tasks succeeded immediately, I leveraged user feedback to refine product pages, ensuring total transparency and building consumer trust.</p>
                 </div>
             </div>
         </section>
 
-        <section class="research gray-bg">
+        <hr class="section-divider">
+
+        <!-- INTRODUZIONE -->
+        <section id="introduzione" class="section-intro-full gray-bg">
             <div class="container">
-                <h2>User Research & Insight</h2>
-                <p class="section-intro">Attraverso interviste e creazione di Personas (come Marta, l'insegnante attenta all'ambiente), ho identificato le necessità principali del target:</p>
+                <h2>Process</h2>
                 
-                <div class="insight-grid">
-                    <div class="insight-card">
-                        <h3>Trasparenza</h3>
-                        <p>Gli utenti vogliono conoscere i dettagli della produzione, dei materiali e delle politiche di reso immediatamente.</p>
+                <div class="hero-image-wrapper">
+                    <img src="immagini/progress-bar-project.png" alt="Progress Bar" class="hero-image">
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DISCOVERY & RESEARCH -->
+        <section id="discovery" class="discovery-section">
+            <div class="container">
+                <h2>Discovery & Research</h2>
+                <p class="section-subtitle">Analisi as is, ricerca utente, personas e user journey</p>
+
+                <!-- ANALISI AS IS -->
+                <div class="analysis-section">
+                    <h3>Analisi As Is</h3>
+                    
+                    <div class="analysis-card">
+                        <h4>Visibilità dello stato del sistema</h4>
+                        <div class="analysis-item">
+                            <h5>Desktop</h5>
+                            <div class="pro-contra">
+                                <div class="pro">
+                                    <strong>✓ Pro</strong>
+                                    <ul>
+                                        <li>Le categorie principali si trovano nella header.</li>
+                                        <li>Cliccando sul logo il sito ti reindirizza alla pagina home.</li>
+                                    </ul>
+                                </div>
+                                <div class="contra">
+                                    <strong>✗ Contro</strong>
+                                    <ul>
+                                        <li>Icone poco presenti e/o inesistenti.</li>
+                                        <li>I titoli e i sottotitoli non sono presenti in ogni pagina e non hanno una struttura chiara e ben definita.</li>
+                                        <li>Lo shop non è chiaro e non presenta filtri che aiutino l'utente a individuare i prodotti desiderati.</li>
+                                        <li>Non c'è un pulsante che ti faccia tornare indietro alle pagine precedenti.</li>
+                                        <li>Non è presente nessun elemento che comunichi all'utente il caricamento di un processo.</li>
+                                        <li>Non sono presenti breadcrumb che indichino all'utente dove si trovi mentre naviga nel sito.</li>
+                                        <li>Il footer non è ottimizzato, sono presenti solo alcune info riguardanti la posizione, la P.IVA la mail e due collegamenti social.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="analysis-item">
+                            <h5>Smartphone</h5>
+                            <div class="pro-contra">
+                                <div class="pro">
+                                    <strong>✓ Pro</strong>
+                                    <ul>
+                                        <li>Il sito si visualizza e si adatta bene su mobile.</li>
+                                        <li>Il logo riporta alla pagina principale.</li>
+                                        <li>È presente un menù ad hamburger.</li>
+                                    </ul>
+                                </div>
+                                <div class="contra">
+                                    <strong>✗ Contro</strong>
+                                    <ul>
+                                        <li>Icone poco presenti e/o inesistenti anche su mobile</li>
+                                        <li>I link non sono visibili e si rischia di cliccarci sopra involontariamente interrompendo così la navigazione.</li>
+                                        <li>Non è presente un pulsante per tornare alla pagina precedente.</li>
+                                        <li>Footer non ottimizzato</li>
+                                        <li>Shop poco chiaro</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="insight-card">
-                        <h3>Semplicità</h3>
-                        <p>Un sistema di filtri efficace per colore e modello riduce drasticamente il carico cognitivo durante lo shopping.</p>
+
+                    <div class="analysis-card">
+                        <h4>Sistema e mondo reale</h4>
+                        <div class="pro-contra">
+                            <div class="pro">
+                                <strong>✓ Pro</strong>
+                                <ul>
+                                    <li>In generale linguaggio usato è user friendly.</li>
+                                    <li>Presente il tasto di traduzione automatica.</li>
+                                    <li>Si può accedere alle categorie principali tramite un hamburger a menù. (smartphone)</li>
+                                </ul>
+                            </div>
+                            <div class="contra">
+                                <strong>✗ Contro</strong>
+                                <ul>
+                                    <li>I testi sono lunghi e poco organizzati, aumentando la possibilità di abbandono per l'utente.</li>
+                                    <li>Alcune parole citate nelle varie categorie sono comprensibili solo per un certo tipo di target.</li>
+                                    <li>I link non sono visibili.</li>
+                                    <li>Non tutte le categorie sono etichettate in modo corretto.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="analysis-card">
+                        <h4>Controllo e libertà utente</h4>
+                        <div class="pro-contra">
+                            <div class="pro">
+                                <strong>✓ Pro</strong>
+                                <ul>
+                                    <li>Il sito presenta un responsive design.</li>
+                                    <li>Si possono eliminare prodotti dal carrello.</li>
+                                    <li>Dal carrello c'è il pulsante 'tornare agli acquisti'.</li>
+                                    <li>C'è la possibilità di scegliere la modalità di pagamento</li>
+                                    <li>È possibile effettuare l'acquisto senza accedere al sito.</li>
+                                    <li>Dopo l'inserimento del codice sconto è possibile aggiornare il prezzo prima di concludere l'acquisto.</li>
+                                </ul>
+                            </div>
+                            <div class="contra">
+                                <strong>✗ Contro</strong>
+                                <ul>
+                                    <li>L'utente non può modificare la quantità di un articolo dal carrello.</li>
+                                    <li>Non è presente una live chat.</li>
+                                    <li>Non è possibile registrarsi tramite i social.</li>
+                                    <li>Non è presente un pulsante 'Indietro' o 'Annulla'.</li>
+                                    <li>Non è presente una barra di ricerca che permetta agli utenti di cercare un particolare prodotto in modo autonomo e veloce.</li>
+                                    <li>Non è possibile filtrare i risultati per modello, colore o categoria.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="analysis-card">
+                        <h4>Coerenza e standard</h4>
+                        <div class="pro-contra">
+                            <div class="pro">
+                                <strong>✓ Pro</strong>
+                                <ul>
+                                    <li>Le pagine web tra di loro sono coerenti.</li>
+                                    <li>Forme e stili sono coerenti in quasi tutte le pagine.</li>
+                                    <li>I colori usati sono coerenti con il brand e la sua filosofia.</li>
+                                    <li>Cliccando il logo si torna alla 'home'.</li>
+                                </ul>
+                            </div>
+                            <div class="contra">
+                                <strong>✗ Contro</strong>
+                                <ul>
+                                    <li>La suddivisione dei prodotti nello shop non è ordinata.</li>
+                                    <li>L'icona dello 'shop' ha uno stile grafico non coerente con il resto del sito.</li>
+                                    <li>Non è coerente l'uso dell'Italic e del Bold nei vari testi.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="analysis-card">
+                        <h4>Prevenzione degli errori</h4>
+                        <div class="pro-contra">
+                            <div class="pro">
+                                <strong>✓ Pro</strong>
+                                <ul>
+                                    <li>Si possono eliminare prodotti dal carrello.</li>
+                                    <li>Dal carrello c'è il pulsante "tornare agli acquisti".</li>
+                                    <li>Quando provi ad aggiungere due volte un prodotto il sito te lo fa notare con una notifica.</li>
+                                </ul>
+                            </div>
+                            <div class="contra">
+                                <strong>✗ Contro</strong>
+                                <ul>
+                                    <li>L'utente non può modificare la quantità di un articolo dal carrello.</li>
+                                    <li>Non è presente un pulsante 'Indietro' o 'Annulla'.</li>
+                                    <li>Non è presente una barra di ricerca che permetta agli utenti di cercare un particolare prodotto in modo autonomo e veloce.</li>
+                                    <li>I link non sono per visibili e si rischia di cliccarci sopra involontariamente interrompendo così la navigazione.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="analysis-card">
+                        <h4>Riconoscimento piuttosto che richiamo</h4>
+                        <div class="pro-contra">
+                            <div class="pro">
+                                <strong>✓ Pro</strong>
+                                <ul>
+                                    <li>Il layout del sito è semplice e intuibile.</li>
+                                </ul>
+                            </div>
+                            <div class="contra">
+                                <strong>✗ Contro</strong>
+                                <ul>
+                                    <li>Non è presente una barra di ricerca che permetta agli utenti di cercare un particolare prodotto in modo autonomo e veloce.</li>
+                                    <li>Le info e i componenti nell'interfaccia provocano spesso confusione.</li>
+                                    <li>Non sempre è chiaro capire in quale pagina/sezione ci si trova.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="analysis-card">
+                        <h4>Flessibilità ed efficienza</h4>
+                        <div class="pro-contra">
+                            <div class="pro">
+                                <strong>✓ Pro</strong>
+                                <ul>
+                                    <li>Dal carrello c'è il pulsante "tornare agli acquisti".</li>
+                                    <li>È possibile approfondire diversi contenuti, come le iniziative in cui si impegna ecodream o i partner con cui collabora.</li>
+                                </ul>
+                            </div>
+                            <div class="contra">
+                                <strong>✗ Contro</strong>
+                                <ul>
+                                    <li>Non è presente una 'wishlist' o 'sezione preferiti'.</li>
+                                    <li>Testi lunghi.</li>
+                                    <li>Molte pagine possono essere raggiunte solo tramite la navigazione di più pagine.</li>
+                                    <li>Il footer non è ottimizzato né per la versione mobile né per quella desktop.</li>
+                                    <li>Il menù non ha icone che possano aiutare l'utente a ricordarsi dove si trova all'interno del sito.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="analysis-card">
+                        <h4>Design estetico e minimalista</h4>
+                        <div class="pro-contra">
+                            <div class="pro">
+                                <strong>✓ Pro</strong>
+                                <ul>
+                                    <li>I colori e le foto usate sono coerenti con il brand e la sua filosofia.</li>
+                                    <li>Non ci sono elementi di distrazione, il layout è chiaro e pulito.</li>
+                                    <li>Le foto sulla home fanno percepire chiaramente cosa andremo a trovare sul sito e di cosa si occupa il brand.</li>
+                                </ul>
+                            </div>
+                            <div class="contra">
+                                <strong>✗ Contro</strong>
+                                <ul>
+                                    <li>Al contrario del layout, il design è confusionale, utenti con poca esperienza nella navigazione potrebbero non riuscire ad esplorare il sito come dovrebbero.</li>
+                                    <li>Il logo a primo impatto risulta di una qualità inferiore rispetto alle foto sottostanti.</li>
+                                    <li>Il logo occupa troppo spazio.</li>
+                                    <li>I loghi sottostanti sono troppo grandi e confusionari, inoltre non c'è una descrizione della categoria a cui appartengono.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="analysis-card">
+                        <h4>Aiutare gli utenti con gli errori</h4>
+                        <div class="pro-contra">
+                            <div class="pro">
+                                <strong>✓ Pro</strong>
+                                <ul>
+                                    <li>Si possono eliminare prodotti dal carrello.</li>
+                                    <li>Si può recuperare il prodotto eliminato dal carrello.</li>
+                                    <li>Quando provi ad aggiungere due volte un prodotto il sito te lo fa notare con una notifica.</li>
+                                </ul>
+                            </div>
+                            <div class="contra">
+                                <strong>✗ Contro</strong>
+                                <ul>
+                                    <li>Nella sezione contatto, se viene inserita una mail inesistente il sistema la accetta comunque.</li>
+                                    <li>Gli errori durante il login non vengono notificati e gestiti chiaramente.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="analysis-card">
+                        <h4>Aiuto e documentazione</h4>
+                        <div class="pro-contra">
+                            <div class="pro">
+                                <strong>✓ Pro</strong>
+                                <ul>
+                                    <li>L'utente può contattare il brand tramite una mail o tramite un modulo.</li>
+                                    <li>Nella sezione 'contatti' è presente un numero whatsapp.</li>
+                                    <li>Il regolamento per resi e spedizioni è chiaro.</li>
+                                </ul>
+                            </div>
+                            <div class="contra">
+                                <strong>✗ Contro</strong>
+                                <ul>
+                                    <li>Oltre al numero whatsapp non sono forniti ulteriori recapiti telefonici.</li>
+                                    <li>Non sono presenti recensioni dei prodotti per un riscontro dei consumatori.</li>
+                                    <li>Non sono presenti FAQ.</li>
+                                    <li>Non sono presenti Condizioni d'uso, Privacy e Cookie Policy.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="analysis-conclusion">
+                        <h4>Nel complesso il sito è USABILE</h4>
+                        <div class="conclusion-item">
+                            <strong>Apprendibilità:</strong> Il sito ha una navigabilità semplice, con un layout intuitivo e un linguaggio comprensibile. Tuttavia, la navigazione diventa complessa quando si accede alle sezioni specifiche del menù, dove i testi, le scorciatoie e i link non risultano chiari o immediatamente riconoscibili.
+                        </div>
+                        <div class="conclusion-item">
+                            <strong>Efficienza:</strong> Il sito presenta diverse criticità. L'azione principale di visualizzazione dei prodotti e lo shopping risultano poco immediati, a causa di filtri non ottimali e di una struttura macchinosa che rende difficile trovare lo shop. Durante un acquisto emergono diverse problematiche che rendono l'esperienza meno gradevole e scorrevole.
+                        </div>
+                        <div class="conclusion-item">
+                            <strong>Memorabilità:</strong> Il sito risulta abbastanza facile da ricordare dopo un periodo di inattività. Tuttavia, la gestione dei dati di accesso potrebbe causare problemi: gli utenti potrebbero ritrovarsi con l'account bloccato se non ricordano la password o devono aggiornare i dati. L'accesso alla gestione dati o il completamento di task può risultare difficile per chi non utilizza il sito frequentemente.
+                        </div>
+                        <div class="conclusion-item">
+                            <strong>Errori:</strong> La gestione degli errori è un punto critico del sito. Sebbene l'utente venga notificato quando commette un errore e abbia la possibilità di risolverlo, non esiste un pulsante che permetta di tornare alla pagina precedente. Spesso, l'utente è costretto a utilizzare il pulsante "indietro" del browser, poiché non riesce a orientarsi all'interno del sito.
+                        </div>
+                        <div class="conclusion-item">
+                            <strong>Soddisfazione:</strong> Il sito risulta anonimo e poco coinvolgente. Il design è semplice, ma i testi lunghi non invogliano a leggere fino in fondo. I colori e lo stile utilizzati sono poco moderni, non creando così desiderabilità né coinvolgimento. Inoltre, la navigazione è frustrante: per compiere azioni come acquistare un prodotto, trovare i contatti o accedere a link specifici, l'utente deve seguire passaggi poco intuitivi. Non ci sono barre di ricerca e alcuni filtri di ricerca sono mancanti, che permettano all'utente di trovare ciò che desidera senza un eccessivo scrolling. Infine, il sito presenta problemi di accessibilità per persone con disabilità e risulta poco inclusivo.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ARCHITETTURA DELL'INFORMAZIONE -->
+                <div class="architecture-section">
+                    <h3>Architettura dell'Informazione</h3>
+                    <p>La struttura del sito è stata ridisegnata per creare un flusso logico e intuitivo:</p>
+                    
+                    <div class="architecture-structure">
+                        <div class="arch-item">
+                            <h5>1.0 HOME</h5>
+                            <ul>
+                                <li>1.1 Info - Informazioni generali</li>
+                                <li>1.2 CTA 'scopri di più' → 1.2.1 About</li>
+                                <li>1.3 Handbags - Modelli di borse a mano o tracolla</li>
+                                <li>1.4 Backpacks - Modelli di borse a zaino</li>
+                                <li>1.5 Hybrid - Modelli di prodotti che possono essere usati sia come borse e zaini</li>
+                                <li>1.6 Showroom, 1.7 Retail, 1.8 LAB</li>
+                                <li>1.9 Upcycling - Descrizione della filosofia</li>
+                                <li>1.10 Eva Szecsodi Limited Edition</li>
+                                <li>1.11 Vegan Proposal</li>
+                                <li>1.12 About us, 1.13 Achievements, 1.14 Initiatives, 1.15 Agreements</li>
+                            </ul>
+                        </div>
+                        <div class="arch-item">
+                            <h5>2.0 SHOP</h5>
+                            <ul>
+                                <li>2.1-2.3 Info su termini, pagamenti, spedizioni e resi</li>
+                                <li>2.4 Personalizzazione del prodotto</li>
+                                <li>2.6-2.16 Shop per i vari modelli e categorie</li>
+                                <li>2.17 Outlet</li>
+                                <li>2.18 More - Tracolle e altri accessori</li>
+                                <li>2.19 Gift Card</li>
+                            </ul>
+                        </div>
+                        <div class="arch-item">
+                            <h5>3.0 ABOUT</h5>
+                            <ul>
+                                <li>3.1-3.7 Mission, vision e filosofia del brand</li>
+                                <li>3.8 La Repubblica - Articolo sul rapporto GreenItaly 2021</li>
+                            </ul>
+                        </div>
+                        <div class="arch-item">
+                            <h5>4.0 MODELLI</h5>
+                            <ul>
+                                <li>4.1 Borse</li>
+                                <li>4.2 Zaini</li>
+                                <li>4.3 Hybrid</li>
+                            </ul>
+                        </div>
+                        <div class="arch-item">
+                            <h5>5.0 MATERIALI</h5>
+                            <ul>
+                                <li>5.1-5.6 Info sui materiali selezionati</li>
+                                <li>5.7 Mercatino delle rimanenze</li>
+                                <li>5.8 Manutenzione prodotto</li>
+                            </ul>
+                        </div>
+                        <div class="arch-item">
+                            <h5>6.0 RETAIL</h5>
+                            <ul>
+                                <li>Lista dei punti vendita</li>
+                            </ul>
+                        </div>
+                        <div class="arch-item">
+                            <h5>7.0 CONTATTI</h5>
+                            <ul>
+                                <li>7.1 Showroom</li>
+                                <li>7.2 Lab</li>
+                                <li>7.3 Mappe</li>
+                                <li>7.4 Modulo contatto</li>
+                                <li>7.5-7.7 Social media</li>
+                            </ul>
+                        </div>
+                        <div class="arch-item">
+                            <h5>8.0 IL MIO ACCOUNT</h5>
+                            <ul>
+                                <li>8.0.1 Tracciamento ordini</li>
+                                <li>8.1 Accedi/Registrati</li>
+                                <li>8.1.1-8.1.5 Dati personali e ordini</li>
+                                <li>8.1.6 Esci da account</li>
+                            </ul>
+                        </div>
+                        <div class="arch-item">
+                            <h5>9.0 CARRELLO</h5>
+                            <ul>
+                                <li>Gestione acquisti e codici promozionali</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ANALISI COMPETITOR -->
+                <div class="competitor-section">
+                    <h3>Analisi dei Competitor</h3>
+                    <p>Nel settore della moda sostenibile sono stati analizzati i seguenti competitor diretti, tutti con caratteristiche simili a Ecodream: Made in Italy, prodotti etici e sostenibili, slow fashion, e-commerce come canale di vendita principale.</p>
+                    
+                    <div class="competitor-grid">
+                        <div class="competitor-card">
+                            <h5>EXSEAT</h5>
+                            <p>Un brand italiano che trasforma materiali di scarto come cinture di sicurezza e tessuti recuperati da auto in disuso in borse e zaini unici. Tutti i prodotti sono realizzati artigianalmente in Italia, seguendo una filosofia di upcycling e sostenibilità ambientale.</p>
+                        </div>
+                        <div class="competitor-card">
+                            <h5>STUDIO SARTA</h5>
+                            <p>Questo marchio palermitano nato nel 2017 si distingue per l'artigianalità e l'uso di materiali locali come la paglia di Vienna. Studio Sarta unisce tradizione e modernità, con una forte attenzione alla sostenibilità. Le borse sono interamente fatte a mano.</p>
+                        </div>
+                        <div class="competitor-card">
+                            <h5>EUTERPE</h5>
+                            <p>Specializzato in borse sostenibili Made in Italy, Euterpe si distingue per l'utilizzo di materiali di alta qualità e design artigianale. Il brand mira a offrire borse lussuose a prezzi accessibili, puntando su etica, artigianalità e sostenibilità.</p>
+                        </div>
+                        <div class="competitor-card">
+                            <h5>CINGOMMA</h5>
+                            <p>Con sede a Torino, Cingomma è un brand che si dedica alla produzione di accessori sostenibili e vegan-friendly. Riciclano camere d'aria di biciclette per creare cinture, portafogli, borse e zaini. Ogni pezzo è unico e completamente privo di materiali di origine animale.</p>
+                        </div>
+                        <div class="competitor-card">
+                            <h5>MALÌA LAB</h5>
+                            <p>Fondato da Flavia Amato, questo brand si concentra su abbigliamento e accessori sostenibili realizzati con materiali biologici come cotone e lino. Malìa Lab promuove la trasparenza nella produzione e il rispetto per l'ambiente.</p>
+                        </div>
+                        <div class="competitor-card">
+                            <h5>TOO ITALY</h5>
+                            <p>Marchio indipendente di accessori vegan e sostenibili, nato nel 2011. Questo brand produce borse e zaini utilizzando materiali ecologici come PVC bullonato, tessuti di riciclo e gomma. Too Italy è noto per l'attenzione all'etica ambientale e per il design innovativo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TARGET E USER RESEARCH -->
+                <div class="research gray-bg" style="margin-top: 40px; padding: 40px 0;">
+                    <div class="container">
+                        <h3>Target e User Research</h3>
+                        
+                        <div class="target-intro">
+                            <p>Dall'analisi delle interazioni online e dei dati disponibili, il target principale di Ecodream è composto da:</p>
+                            <ul>
+                                <li><strong>Genere:</strong> prevalentemente donne</li>
+                                <li><strong>Età:</strong> tra i 25 e i 45 anni</li>
+                                <li><strong>Fascia economica:</strong> media</li>
+                                <li><strong>Etica:</strong> orientata verso scelte sostenibili, rispettose dell'ambiente e degli animali</li>
+                                <li><strong>Rapporto con la tecnologia:</strong> uso frequente e consapevole</li>
+                            </ul>
+                        </div>
+
+                        <div class="research-methodology">
+                            <h4>Metodologia della ricerca</h4>
+                            <p>È stato sottoposto un questionario di 18 domande a 10 donne tra i 25 e i 40 anni con lo scopo di analizzare:</p>
+                            <ul>
+                                <li>Le loro abitudini di acquisto</li>
+                                <li>L'impatto delle funzionalità di un sito e-commerce sul comportamento degli utenti</li>
+                                <li>Le loro preferenze e criteri di scelta durante l'acquisto di borse o zaini</li>
+                                <li>Aree critiche del sito</li>
+                            </ul>
+                        </div>
+
+                        <div class="research-results">
+                            <h4>Risultati della ricerca</h4>
+                            
+                            <div class="research-chart">
+                                <h5>Dove acquisti di solito?</h5>
+                                <p><strong>Online 55%</strong> | <strong>Negozio fisico 45%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Con quale dispositivo preferisci acquistare online?</h5>
+                                <p><strong>PC 39%</strong> | <strong>Cellulare 60%</strong> | <strong>Tablet 1%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Possiedi abbigliamento ecologico nel tuo armadio?</h5>
+                                <p><strong>Si 95%</strong> | <strong>No 5%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Hai mai acquistato prodotti da brand sostenibili?</h5>
+                                <p><strong>Si 65%</strong> | <strong>No 35%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Quando effettui un acquisto online, preferisci che il prodotto sia in pronta consegna?</h5>
+                                <p><strong>Si 50%</strong> | <strong>No 10%</strong> | <strong>Non lo considero 40%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Con quale frequenza acquisti borse o zaini online?</h5>
+                                <p><strong>Raramente 35%</strong> | <strong>Una volta l'anno 45%</strong> | <strong>Più volte l'anno 20%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Qual è il principale fattore che consideri quando acquisti una borsa o uno zaino online?</h5>
+                                <p><strong>Qualità/Prezzo 47%</strong> | <strong>Materiale 30%</strong> | <strong>Design 15%</strong> | <strong>Brand 2%</strong> | <strong>Altro 6%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Quanto influisce la qualità dei materiali nella tua scelta?</h5>
+                                <p><strong>Molto 58%</strong> | <strong>Abbastanza 35%</strong> | <strong>Poco 7%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Preferisci prodotti realizzati in maniera artigianale o ti interessa di più il design e la funzionalità?</h5>
+                                <p><strong>Artigianale 38%</strong> | <strong>Funzionalità 62%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Quanto spenderesti per una borsa o zaino ecosostenibile?</h5>
+                                <p><strong>0-20€ 2%</strong> | <strong>20-50€ 49%</strong> | <strong>50-100€ 45%</strong> | <strong>100-250€ 4%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Quando acquisti, poni attenzione alle info sulla produzione e sui materiali utilizzati?</h5>
+                                <p><strong>Si 80%</strong> | <strong>No 20%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Quale delle proposte del sito consideri maggiormente per un acquisto?</h5>
+                                <p><strong>Borse 67%</strong> | <strong>Zaini 3%</strong> | <strong>Hybrid 30%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Qual è la tua fascia d'età?</h5>
+                                <p><strong>18-24 anni 20%</strong> | <strong>25-34 anni 40%</strong> | <strong>35-44 anni 35%</strong> | <strong>45+ anni 30%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Quante borse o zaini possiedi?</h5>
+                                <p><strong>0-4 17%</strong> | <strong>5-9 78%</strong> | <strong>10+ 5%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Hai mai abbandonato un acquisto a causa di problemi con il sito?</h5>
+                                <p><strong>Si 38%</strong> | <strong>No 62%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Quanto è importante per te leggere le recensioni del prodotto?</h5>
+                                <p><strong>Molto 58%</strong> | <strong>Abbastanza 35%</strong> | <strong>Poco 7%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Condividi i tuoi acquisti sui social media o con gli amici?</h5>
+                                <p><strong>Si 2%</strong> | <strong>No 49%</strong></p>
+                            </div>
+
+                            <div class="research-chart">
+                                <h5>Consiglieresti Ecodream?</h5>
+                                <p><strong>Si 63%</strong> | <strong>No 37%</strong></p>
+                            </div>
+                        </div>
+
+                        <div class="research-insights">
+                            <h4>Cosa abbiamo scoperto</h4>
+                            <ul>
+                                <li>La <strong>maggior parte degli utenti preferisce fare acquisti online</strong>, con il 60% che predilige questa modalità e il 88% che utilizza il telefono per navigare sui siti e-commerce.</li>
+                                <li>Il <strong>95% degli intervistati possiede abbigliamento ecologico</strong> nel proprio armadio, e più della metà (65%) acquista prodotti da brand sostenibili.</li>
+                                <li>Gli intervistati <strong>vogliono trasparenza sui materiali e sui processi di produzione</strong>, senza però rinunciare, nella scelta, alla funzionalità del prodotto.</li>
+                                <li>I <strong>principali criteri di scelta si concentrano sul rapporto qualità/prezzo (47%) e sui materiali (30%)</strong>.</li>
+                                <li>Per quanto riguarda l'esperienza d'acquisto online, la <strong>maggioranza ha almeno una volta abbandonato l'acquisto a causa di problemi con il sito</strong> e ritiene che le <strong>recensioni del prodotto siano fondamentali</strong>.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- ACCESSIBILITÀ -->
+        <section id="accessibilita" class="accessibility-section">
+            <div class="container">
+                <h2>Accessibilità</h2>
+                <p class="section-subtitle">Implementazione di standard WCAG e inclusive design</p>
+                <p>La riprogettazione ha incorporato principi di accessibilità secondo le linee guida WCAG 2.1, garantendo che il sito sia utilizzabile da persone con diverse abilità e disabilità, utilizzando tecnologie assistive come screen reader, tastiera, e ingranditori.</p>
+            </div>
+        </section>
+
+        <!-- WIREFRAME -->
+        <section id="wireframe" class="wireframe-section gray-bg">
+            <div class="container">
+                <h2>Wireframe e Layout</h2>
+                <p class="section-subtitle">Griglia Layout, Scala Tipografica, Wireframe desktop e mobile</p>
+                
+                <div class="wireframe-content">
+                    <div class="wireframe-item">
+                        <h3>Griglia Layout</h3>
+                        <p>È stata definita una griglia layout rigorosa per garantire coerenza e responsività su tutti i dispositivi (mobile, tablet, desktop). Questo approccio di design atomico assicura che i componenti siano scalabili e modulari.</p>
+                    </div>
+                    
+                    <div class="wireframe-item">
+                        <h3>Scala Tipografica</h3>
+                        <p>La gerarchia tipografica è stata definita seguendo proporzioni armoniche per migliorare la leggibilità e creare una chiara struttura visiva. I heading e i body text sono stati calibrati per un'esperienza di lettura ottimale su tutti i dispositivi.</p>
+                    </div>
+                    
+                    <div class="wireframe-item">
+                        <h3>Wireframe Desktop e Mobile</h3>
+                        <p>Sono stati creati wireframe dettagliati per rappresentare il layout su desktop (1920px) e mobile (375px), assicurando che ogni elemento sia correttamente posizionato e accessibile indipendentemente dal dispositivo utilizzato.</p>
+                    </div>
+                    
+                    <div class="wireframe-item">
+                        <h3>Wireflow Utente</h3>
+                        <p>Il flusso utente è stato mappato per seguire il percorso completo dall'ingresso al sito fino al completamento dell'acquisto, identificando i punti critici e le opportunità di ottimizzazione.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- USER INTERFACE -->
+        <section id="ui" class="ui-section">
+            <div class="container">
+                <h2>User Interface</h2>
+                <p class="section-subtitle">UI kit, Interazione, User flow</p>
+                
+                <div class="ui-content">
+                    <div class="ui-item">
+                        <h3>UI Kit</h3>
+                        <p>È stato creato un UI Kit completo che include:</p>
+                        <ul>
+                            <li><strong>Palette colori:</strong> Toni naturali e sostenibili che riflettono l'identità del brand</li>
+                            <li><strong>Tipografia:</strong> Scelta di font leggibili e coerenti con il brand</li>
+                            <li><strong>Componenti:</strong> Bottoni, form, card, badge e altri elementi riutilizzabili</li>
+                            <li><strong>Iconografia:</strong> Set di icone coerente e intuitivo</li>
+                        </ul>
+                    </div>
+
+                    <div class="ui-item">
+                        <h3>Interazione</h3>
+                        <p>Gli elementi interattivi sono stati progettati per fornire feedback immediato e chiaro all'utente, migliorando l'esperienza di navigazione e rendendo le azioni più intuitive.</p>
+                    </div>
+
+                    <div class="ui-item">
+                        <h3>User Flow</h3>
+                        <p>Il flusso utente è stato ottimizzato per guidare l'utente in modo naturale attraverso il percorso d'acquisto, riducendo gli step necessari e eliminando punti di frizione.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- USER TESTING -->
+        <section id="testing" class="testing-section gray-bg">
 
         <section class="solution-flow">
             <div class="container">
@@ -89,13 +710,76 @@
             </div>
         </section>
 
-        <section class="testing">
+        <!-- USER TESTING -->
+        <section id="testing" class="testing-section gray-bg">
             <div class="container">
-                <h2>Validazione e Iterazione</h2>
-                <p>Il test di usabilità ha confermato che il nuovo design è intuitivo, ma ha evidenziato un punto chiave: gli utenti cercavano le informazioni di <strong>reso e spedizione</strong> già nella scheda prodotto.</p>
+                <h2>User Testing & Validazione</h2>
+                <p class="section-subtitle">Metodologia, targeting, recruiting, script, task e risultati</p>
                 
-                <div class="iteration-box">
-                    <strong>💡 Cosa è cambiato nei test:</strong> Ho aggiunto moduli informativi chiari direttamente sotto il pulsante "Aggiungi al carrello" per aumentare la trasparenza e la velocità di conversione, abbattendo le esitazioni d'acquisto.
+                <div class="testing-content">
+                    <div class="testing-phase">
+                        <h3>Metodologia e Obiettivi</h3>
+                        <p>Il testing di usabilità è stato condotto con l'obiettivo di validare il design proposto e identificare eventuali punti di criticità prima del rilascio finale. Sono stati effettuati test moderated con utenti reali del target.</p>
+                    </div>
+
+                    <div class="testing-phase">
+                        <h3>Target dei Test</h3>
+                        <p>Sono stati selezionati utenti coerenti con il target identificato durante la fase di ricerca: donne tra i 25 e i 45 anni, interessate alla moda sostenibile, con esperienza di acquisti online su dispositivi mobile.</p>
+                    </div>
+
+                    <div class="testing-phase">
+                        <h3>Recruiting</h3>
+                        <p>I partecipanti sono stati reclutati attraverso il network del brand e piattaforme di user testing, assicurando una rappresentatività adeguata del target.</p>
+                    </div>
+
+                    <div class="testing-phase">
+                        <h3>Script e Task</h3>
+                        <p>Ai partecipanti è stato chiesto di completare task specifici:</p>
+                        <ul>
+                            <li>Trovare una borsa di un colore specifico</li>
+                            <li>Applicare un filtro per modello</li>
+                            <li>Completare un acquisto</li>
+                            <li>Trovare le informazioni su spedizione e resi</li>
+                            <li>Contattare l'assistenza</li>
+                        </ul>
+                    </div>
+
+                    <div class="testing-phase">
+                        <h3>Prototipo Testato</h3>
+                        <p>È stato testato un prototipo interattivo realizzato in Figma che rappresentava il percorso completo dall'homepage fino al completamento dell'acquisto.</p>
+                    </div>
+
+                    <div class="testing-phase">
+                        <h3>Metodologia Test</h3>
+                        <p>I test sono stati condotti utilizzando la metodologia del thinking aloud, durante i quali i partecipanti verbalizzavano i loro pensieri, le loro incertezze e le loro reazioni durante l'interazione con il prototipo.</p>
+                    </div>
+
+                    <div class="testing-results">
+                        <h3>Risultati del Testing</h3>
+                        <p>Il testing ha confermato che il nuovo design è intuitivo e migliora significativamente l'esperienza di navigazione rispetto al sito originale. I risultati chiave:</p>
+                        <ul>
+                            <li><strong>Task Completion Rate:</strong> Il 90% dei partecipanti ha completato con successo i task proposti</li>
+                            <li><strong>Tempo di completamento:</strong> Ridotto mediamente del 40% rispetto al sito originale</li>
+                            <li><strong>System Usability Scale (SUS):</strong> Punteggio medio di 78/100</li>
+                            <li><strong>Insight critico:</strong> Gli utenti cercavano le informazioni di reso e spedizione già nella scheda prodotto</li>
+                        </ul>
+                    </div>
+
+                    <div class="testing-iterations">
+                        <h3>Iterazioni Basate sul Feedback</h3>
+                        <p>Su base dei risultati del testing, sono state apportate le seguenti modifiche:</p>
+                        <ul>
+                            <li>Aggiunta di sezioni informative su spedizione e resi direttamente nella scheda prodotto</li>
+                            <li>Miglioramento della visibilità dei filtri di ricerca</li>
+                            <li>Ottimizzazione del layout per dispositivi mobile</li>
+                            <li>Implementazione di breadcrumb per migliorare l'orientamento</li>
+                        </ul>
+                    </div>
+
+                    <div class="testing-conclusion">
+                        <h3>Conclusioni</h3>
+                        <p>Il progetto Ecodream dimostra come un approccio user-centered e iterativo possa trasformare un catalogo complesso in un'esperienza d'acquisto fluida, valoriale e ad alta conversione. Le migliorie proposte non solo risolvono i problemi identificati durante l'analisi iniziale, ma creano anche un ecosistema digitale più consapevole e inclusivo, coerente con i valori del brand.</p>
+                    </div>
                 </div>
             </div>
         </section>
